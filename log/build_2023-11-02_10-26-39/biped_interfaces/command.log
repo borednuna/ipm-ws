@@ -1,4 +1,0 @@
-Invoking command in '/home/nuna/ipm-ws/build/biped_interfaces': CMAKE_PREFIX_PATH=/opt/ros/rolling /home/nuna/.local/bin/cmake --build /home/nuna/ipm-ws/build/biped_interfaces -- -j8 -l8
-Invoked command in '/home/nuna/ipm-ws/build/biped_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /home/nuna/.local/bin/cmake --build /home/nuna/ipm-ws/build/biped_interfaces -- -j8 -l8
-Invoking command in '/home/nuna/ipm-ws/build/biped_interfaces': CMAKE_PREFIX_PATH=/opt/ros/rolling /home/nuna/.local/bin/cmake --install /home/nuna/ipm-ws/build/biped_interfaces
-Invoked command in '/home/nuna/ipm-ws/build/biped_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /home/nuna/.local/bin/cmake --install /home/nuna/ipm-ws/build/biped_interfaces

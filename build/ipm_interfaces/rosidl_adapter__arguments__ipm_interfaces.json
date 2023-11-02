@@ -1,7 +1,0 @@
-{
-  "package_name": "ipm_interfaces",
-  "non_idl_tuples": [
-    "/home/nuna/ipm-ws/src/ipm/ipm_interfaces:srv/MapPoint.srv",
-    "/home/nuna/ipm-ws/src/ipm/ipm_interfaces:srv/MapPointCloud2.srv"
-  ]
-}

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/rot_conv_sample_direct.dir/test/rot_conv_sample.cpp.o CMakeFiles/rot_conv_sample_direct.dir/src/rot_conv.cpp.o CMakeFiles/rot_conv_sample_direct.dir/src/rot_conv_extras.cpp.o -o rot_conv_sample_direct 

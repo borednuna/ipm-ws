@@ -1,2 +1,0 @@
-/usr/bin/ar qc librotconvstatic.a CMakeFiles/rotconvstatic.dir/src/rot_conv.cpp.o CMakeFiles/rotconvstatic.dir/src/rot_conv_extras.cpp.o
-/usr/bin/ranlib librotconvstatic.a

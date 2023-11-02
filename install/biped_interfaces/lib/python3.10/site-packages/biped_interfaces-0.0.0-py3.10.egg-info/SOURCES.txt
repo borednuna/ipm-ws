@@ -1,9 +1,0 @@
-setup.py
-biped_interfaces/__init__.py
-biped_interfaces.egg-info/PKG-INFO
-biped_interfaces.egg-info/SOURCES.txt
-biped_interfaces.egg-info/dependency_links.txt
-biped_interfaces.egg-info/top_level.txt
-biped_interfaces/msg/__init__.py
-biped_interfaces/msg/_phase.py
-biped_interfaces/msg/_sole_poses.py

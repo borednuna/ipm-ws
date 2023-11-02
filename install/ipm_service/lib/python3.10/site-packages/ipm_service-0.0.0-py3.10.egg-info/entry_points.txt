@@ -1,3 +1,0 @@
-[console_scripts]
-ipm_service = ipm_service.ipm:main
-

@@ -1,6 +1,0 @@
-Invoking command in '/home/nuna/ipm-ws/build/rot_conv': CMAKE_PREFIX_PATH=/opt/ros/rolling /home/nuna/.local/bin/cmake /home/nuna/ipm-ws/src/rot_conv_lib -DCMAKE_INSTALL_PREFIX=/home/nuna/ipm-ws/install/rot_conv
-Invoked command in '/home/nuna/ipm-ws/build/rot_conv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /home/nuna/.local/bin/cmake /home/nuna/ipm-ws/src/rot_conv_lib -DCMAKE_INSTALL_PREFIX=/home/nuna/ipm-ws/install/rot_conv
-Invoking command in '/home/nuna/ipm-ws/build/rot_conv': CMAKE_PREFIX_PATH=/opt/ros/rolling /home/nuna/.local/bin/cmake --build /home/nuna/ipm-ws/build/rot_conv -- -j8 -l8
-Invoked command in '/home/nuna/ipm-ws/build/rot_conv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /home/nuna/.local/bin/cmake --build /home/nuna/ipm-ws/build/rot_conv -- -j8 -l8
-Invoking command in '/home/nuna/ipm-ws/build/rot_conv': CMAKE_PREFIX_PATH=/opt/ros/rolling /home/nuna/.local/bin/cmake --install /home/nuna/ipm-ws/build/rot_conv
-Invoked command in '/home/nuna/ipm-ws/build/rot_conv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /home/nuna/.local/bin/cmake --install /home/nuna/ipm-ws/build/rot_conv

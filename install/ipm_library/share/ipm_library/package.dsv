@@ -1,6 +1,0 @@
-source;share/ipm_library/hook/pythonpath.ps1
-source;share/ipm_library/hook/pythonpath.dsv
-source;share/ipm_library/hook/pythonpath.sh
-source;share/ipm_library/hook/ament_prefix_path.ps1
-source;share/ipm_library/hook/ament_prefix_path.dsv
-source;share/ipm_library/hook/ament_prefix_path.sh
