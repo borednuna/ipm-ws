@@ -1,0 +1,811 @@
+[0.129s] Invoking command in '/home/nuna/ipm-ws/build/vision_msgs': CMAKE_PREFIX_PATH=/opt/ros/rolling /home/nuna/.local/bin/cmake /home/nuna/ipm-ws/src/vision_msgs/vision_msgs -DCMAKE_INSTALL_PREFIX=/home/nuna/ipm-ws/install/vision_msgs
+[0.236s] -- The C compiler identification is GNU 11.4.0
+[0.331s] -- The CXX compiler identification is GNU 11.4.0
+[0.347s] -- Detecting C compiler ABI info
+[0.402s] -- Detecting C compiler ABI info - done
+[0.412s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.413s] -- Detecting C compile features
+[0.413s] -- Detecting C compile features - done
+[0.420s] -- Detecting CXX compiler ABI info
+[0.479s] -- Detecting CXX compiler ABI info - done
+[0.488s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.488s] -- Detecting CXX compile features
+[0.489s] -- Detecting CXX compile features - done
+[0.493s] -- Found ament_cmake: 2.3.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.852s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.935s] -- Found std_msgs: 5.2.0 (/opt/ros/rolling/share/std_msgs/cmake)
+[0.972s] -- Found rosidl_generator_c: 4.4.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.983s] -- Found rosidl_generator_cpp: 4.4.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[1.002s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.021s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.114s] -- Found geometry_msgs: 5.2.0 (/opt/ros/rolling/share/geometry_msgs/cmake)
+[1.189s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/rolling/share/rosidl_default_generators/cmake)
+[1.205s] -- Found rosidl_adapter: 4.4.0 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[2.410s] -- Found ament_cmake_cppcheck: 0.15.2 (/opt/ros/rolling/share/ament_cmake_cppcheck/cmake)
+[2.414s] -- Found ament_cmake_cpplint: 0.15.2 (/opt/ros/rolling/share/ament_cmake_cpplint/cmake)
+[2.427s] -- Found ament_cmake_uncrustify: 0.15.2 (/opt/ros/rolling/share/ament_cmake_uncrustify/cmake)
+[2.430s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/rolling/share/ament_cmake_ros/cmake)
+[3.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.529s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.539s] [33mCMake Warning (dev) at /opt/ros/rolling/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[3.539s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.539s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.539s]   the cmake_policy command to set the policy and suppress this warning.
+[3.539s] 
+[3.539s] Call Stack (most recent call first):
+[3.539s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.539s]   /opt/ros/rolling/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)
+[3.540s]   CMakeLists.txt:37 (rosidl_generate_interfaces)
+[3.540s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.540s] [0m
+[3.557s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.560s] -- Found python_cmake_module: 0.11.0 (/opt/ros/rolling/share/python_cmake_module/cmake)
+[3.561s] [33mCMake Warning (dev) at /opt/ros/rolling/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[3.561s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.561s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.561s]   the cmake_policy command to set the policy and suppress this warning.
+[3.561s] 
+[3.561s] Call Stack (most recent call first):
+[3.561s]   /opt/ros/rolling/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.561s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.561s]   /opt/ros/rolling/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)
+[3.561s]   CMakeLists.txt:37 (rosidl_generate_interfaces)
+[3.561s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.561s] [0m
+[3.583s] [33mCMake Warning (dev) at /opt/ros/rolling/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[3.583s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.583s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.583s]   the cmake_policy command to set the policy and suppress this warning.
+[3.583s] 
+[3.583s] Call Stack (most recent call first):
+[3.583s]   /opt/ros/rolling/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.583s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.583s]   /opt/ros/rolling/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)
+[3.584s]   CMakeLists.txt:37 (rosidl_generate_interfaces)
+[3.584s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.584s] [0m
+[3.591s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.591s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.591s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.592s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.615s] -- Found PythonExtra: .so  
+[3.701s] -- Found ament_cmake_flake8: 0.15.2 (/opt/ros/rolling/share/ament_cmake_flake8/cmake)
+[3.704s] -- Found ament_cmake_pep257: 0.15.2 (/opt/ros/rolling/share/ament_cmake_pep257/cmake)
+[3.709s] -- Found ament_lint_auto: 0.15.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[3.724s] -- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.729s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.801s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.805s] -- Found Threads: TRUE  
+[3.818s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.820s] -- Configured cppcheck include dirs: /home/nuna/ipm-ws/src/vision_msgs/vision_msgs/include
+[3.820s] -- Configured cppcheck exclude dirs and/or files: 
+[3.821s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.821s] -- Configured cpplint exclude dirs and/or files: 
+[3.823s] -- Added test 'uncrustify' to check C / C++ code style
+[3.823s] -- Configured uncrustify additional arguments: 
+[3.824s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.825s] -- Added test 'lint_cmake' to check CMake code style
+[3.826s] -- Added test 'xmllint' to check XML markup files
+[3.831s] -- Configuring done (3.7s)
+[3.950s] -- Generating done (0.1s)
+[3.955s] -- Build files have been written to: /home/nuna/ipm-ws/build/vision_msgs
+[3.970s] Invoked command in '/home/nuna/ipm-ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /home/nuna/.local/bin/cmake /home/nuna/ipm-ws/src/vision_msgs/vision_msgs -DCMAKE_INSTALL_PREFIX=/home/nuna/ipm-ws/install/vision_msgs
+[3.972s] Invoking command in '/home/nuna/ipm-ws/build/vision_msgs': CMAKE_PREFIX_PATH=/opt/ros/rolling /home/nuna/.local/bin/cmake --build /home/nuna/ipm-ws/build/vision_msgs -- -j8 -l8
+[4.043s] [  0%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.043s] [  0%] Built target ament_cmake_python_copy_vision_msgs
+[4.047s] [  0%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.057s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.417s] running egg_info
+[4.418s] creating vision_msgs.egg-info
+[4.419s] writing vision_msgs.egg-info/PKG-INFO
+[4.419s] writing dependency_links to vision_msgs.egg-info/dependency_links.txt
+[4.419s] writing top-level names to vision_msgs.egg-info/top_level.txt
+[4.419s] writing manifest file 'vision_msgs.egg-info/SOURCES.txt'
+[4.422s] reading manifest file 'vision_msgs.egg-info/SOURCES.txt'
+[4.423s] writing manifest file 'vision_msgs.egg-info/SOURCES.txt'
+[4.458s] [  0%] Built target ament_cmake_python_build_vision_msgs_egg
+[4.962s] [  1%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.985s] [  1%] Built target gtest_main
+[5.471s] [  1%] Built target vision_msgs__rosidl_generator_type_description
+[5.523s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.573s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.512s] [  1%] Built target vision_msgs__cpp
+[7.909s] [  2%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/bounding_box2_d__functions.c.o[0m
+[7.909s] [  3%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/bounding_box2_d__description.c.o[0m
+[7.909s] [  3%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/bounding_box2_d__type_support.c.o[0m
+[7.910s] [  5%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/bounding_box3_d__description.c.o[0m
+[7.910s] [  5%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/bounding_box2_d_array__type_support.c.o[0m
+[7.910s] [  5%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/bounding_box2_d_array__functions.c.o[0m
+[7.911s] [  5%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/bounding_box2_d_array__description.c.o[0m
+[7.954s] [  5%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/bounding_box3_d__functions.c.o[0m
+[7.956s] [  6%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/bounding_box3_d__type_support.c.o[0m
+[7.961s] [  6%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/bounding_box3_d_array__description.c.o[0m
+[7.967s] [  7%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/bounding_box3_d_array__functions.c.o[0m
+[7.972s] [  8%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/bounding_box3_d_array__type_support.c.o[0m
+[7.974s] [  8%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/classification__description.c.o[0m
+[8.000s] [  9%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/classification__functions.c.o[0m
+[8.004s] [  9%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/classification__type_support.c.o[0m
+[8.008s] [ 10%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/detection2_d_array__description.c.o[0m
+[8.013s] [ 10%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/detection2_d_array__functions.c.o[0m
+[8.018s] [ 10%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/detection2_d__description.c.o[0m
+[8.023s] [ 11%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/detection2_d__functions.c.o[0m
+[8.042s] [ 12%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/detection2_d_array__type_support.c.o[0m
+[8.053s] [ 12%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/detection2_d__type_support.c.o[0m
+[8.070s] [ 13%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/detection3_d_array__description.c.o[0m
+[8.070s] [ 13%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/detection3_d_array__functions.c.o[0m
+[8.081s] [ 14%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/detection3_d__description.c.o[0m
+[8.081s] [ 14%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/detection3_d_array__type_support.c.o[0m
+[8.081s] [ 15%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/detection3_d__functions.c.o[0m
+[8.090s] [ 15%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/detection3_d__type_support.c.o[0m
+[8.091s] [ 16%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/label_info__description.c.o[0m
+[8.124s] [ 16%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/label_info__functions.c.o[0m
+[8.132s] [ 18%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/label_info__type_support.c.o[0m
+[8.132s] [ 18%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/object_hypothesis__description.c.o[0m
+[8.138s] [ 18%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/object_hypothesis__functions.c.o[0m
+[8.139s] [ 19%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/object_hypothesis__type_support.c.o[0m
+[8.142s] [ 19%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/object_hypothesis_with_pose__description.c.o[0m
+[8.168s] [ 20%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/object_hypothesis_with_pose__functions.c.o[0m
+[8.172s] [ 20%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/object_hypothesis_with_pose__type_support.c.o[0m
+[8.172s] [ 21%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/vision_class__description.c.o[0m
+[8.173s] [ 21%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/vision_class__functions.c.o[0m
+[8.194s] [ 22%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/vision_class__type_support.c.o[0m
+[8.194s] [ 22%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/point2_d__description.c.o[0m
+[8.202s] [ 23%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/point2_d__functions.c.o[0m
+[8.214s] [ 23%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/point2_d__type_support.c.o[0m
+[8.227s] [ 24%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/pose2_d__description.c.o[0m
+[8.230s] [ 25%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/pose2_d__type_support.c.o[0m
+[8.231s] [ 25%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/pose2_d__functions.c.o[0m
+[8.236s] [ 25%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/vision_info__description.c.o[0m
+[8.236s] [ 26%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/vision_info__functions.c.o[0m
+[8.251s] [ 26%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/vision_info__type_support.c.o[0m
+[8.288s] [ 27%] [32m[1mLinking C shared library libvision_msgs__rosidl_generator_c.so[0m
+[8.317s] [ 27%] Built target vision_msgs__rosidl_generator_c
+[8.322s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.322s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.322s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.322s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.322s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.325s] [ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.651s] [ 34%] [32m[1mLinking CXX static library libgtest.a[0m
+[8.704s] [ 34%] Built target gtest
+[9.920s] [ 34%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/bounding_box2_d__type_support.cpp.o[0m
+[9.921s] [ 34%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[9.923s] [ 35%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/bounding_box2_d_array__type_support.cpp.o[0m
+[10.255s] [ 36%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/bounding_box2_d__type_support.cpp.o[0m
+[10.261s] [ 37%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/bounding_box2_d__type_support_c.cpp.o[0m
+[10.319s] [ 37%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/bounding_box2_d_array__type_support.cpp.o[0m
+[10.373s] [ 38%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[10.407s] [ 38%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/bounding_box2_d__type_support.cpp.o[0m
+[10.421s] [ 38%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/bounding_box2_d__type_support.cpp.o[0m
+[10.436s] [ 39%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/bounding_box2_d__type_support.c.o[0m
+[10.442s] [ 39%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/bounding_box3_d_array__type_support.cpp.o[0m
+[10.461s] [ 40%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/bounding_box2_d_array__type_support.cpp.o[0m
+[10.503s] [ 40%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/bounding_box2_d_array__type_support.c.o[0m
+[10.508s] [ 41%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/bounding_box3_d_array__type_support.cpp.o[0m
+[10.513s] [ 42%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/classification__type_support.cpp.o[0m
+[10.562s] [ 42%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/classification__type_support.cpp.o[0m
+[10.586s] [ 43%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/bounding_box3_d__type_support.c.o[0m
+[10.609s] [ 43%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/detection2_d_array__type_support.cpp.o[0m
+[10.680s] [ 43%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/bounding_box3_d_array__type_support.c.o[0m
+[10.686s] [ 44%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/detection2_d__type_support.cpp.o[0m
+[10.733s] [ 44%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/bounding_box2_d_array__type_support_c.cpp.o[0m
+[10.740s] [ 45%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/classification__type_support.c.o[0m
+[10.757s] [ 45%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/detection3_d_array__type_support.cpp.o[0m
+[10.827s] [ 46%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/detection3_d__type_support.cpp.o[0m
+[10.829s] [ 46%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/detection2_d_array__type_support.c.o[0m
+[10.896s] [ 46%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/label_info__type_support.cpp.o[0m
+[10.902s] [ 47%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/detection2_d__type_support.c.o[0m
+[10.912s] [ 48%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/bounding_box2_d_array__type_support.cpp.o[0m
+[10.950s] [ 48%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/detection3_d_array__type_support.c.o[0m
+[10.996s] [ 49%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/object_hypothesis__type_support.cpp.o[0m
+[11.000s] [ 50%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/detection3_d__type_support.c.o[0m
+[11.050s] [ 50%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/object_hypothesis_with_pose__type_support.cpp.o[0m
+[11.055s] [ 50%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/label_info__type_support.c.o[0m
+[11.091s] [ 51%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/vision_class__type_support.cpp.o[0m
+[11.110s] [ 52%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/object_hypothesis__type_support.c.o[0m
+[11.112s] [ 52%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/point2_d__type_support.cpp.o[0m
+[11.128s] [ 53%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/detection2_d_array__type_support.cpp.o[0m
+[11.149s] [ 53%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/object_hypothesis_with_pose__type_support.c.o[0m
+[11.183s] [ 54%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/pose2_d__type_support.cpp.o[0m
+[11.191s] [ 54%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o[0m
+[11.195s] [ 55%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/vision_class__type_support.c.o[0m
+[11.205s] [ 55%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/vision_info__type_support.cpp.o[0m
+[11.209s] [ 56%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/bounding_box3_d_array__type_support.cpp.o[0m
+[11.238s] [ 57%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/bounding_box3_d__type_support_c.cpp.o[0m
+[11.244s] [ 57%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/bounding_box3_d_array__type_support_c.cpp.o[0m
+[11.248s] [ 57%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/point2_d__type_support.c.o[0m
+[11.297s] [ 58%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/pose2_d__type_support.c.o[0m
+[11.316s] [ 59%] [32m[1mLinking CXX shared library libvision_msgs__rosidl_typesupport_c.so[0m
+[11.349s] [ 59%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/vision_info__type_support.c.o[0m
+[11.389s] [ 59%] Built target vision_msgs__rosidl_typesupport_c
+[11.398s] [ 59%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/classification__type_support.cpp.o[0m
+[11.420s] [ 60%] [32m[1mLinking C shared library libvision_msgs__rosidl_typesupport_introspection_c.so[0m
+[11.512s] [ 60%] Built target vision_msgs__rosidl_typesupport_introspection_c
+[11.516s] [ 61%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/detection2_d_array__type_support.cpp.o[0m
+[11.573s] [ 61%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/bounding_box3_d__type_support.cpp.o[0m
+[11.684s] [ 61%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/detection2_d__type_support.cpp.o[0m
+[11.713s] [ 62%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/classification__type_support_c.cpp.o[0m
+[11.718s] [ 62%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/detection2_d_array__type_support_c.cpp.o[0m
+[11.950s] [ 62%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/detection2_d__type_support.cpp.o[0m
+[11.964s] [ 63%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/detection2_d__type_support_c.cpp.o[0m
+[12.119s] [ 64%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/detection3_d_array__type_support.cpp.o[0m
+[12.162s] [ 65%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/bounding_box3_d_array__type_support.cpp.o[0m
+[12.189s] [ 65%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/detection3_d_array__type_support_c.cpp.o[0m
+[12.241s] [ 65%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/classification__type_support.cpp.o[0m
+[12.358s] [ 65%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/detection3_d__type_support.cpp.o[0m
+[12.419s] [ 66%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/detection3_d_array__type_support.cpp.o[0m
+[12.438s] [ 67%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/label_info__type_support.cpp.o[0m
+[12.668s] [ 68%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/detection3_d__type_support_c.cpp.o[0m
+[12.750s] [ 68%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/label_info__type_support_c.cpp.o[0m
+[12.830s] [ 69%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/detection2_d_array__type_support.cpp.o[0m
+[12.903s] [ 69%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/detection2_d__type_support.cpp.o[0m
+[12.940s] [ 69%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/detection3_d__type_support.cpp.o[0m
+[12.959s] [ 69%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/object_hypothesis__type_support.cpp.o[0m
+[13.174s] [ 70%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/object_hypothesis__type_support_c.cpp.o[0m
+[13.191s] [ 71%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/label_info__type_support.cpp.o[0m
+[13.303s] [ 72%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/object_hypothesis_with_pose__type_support.cpp.o[0m
+[13.413s] [ 72%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/object_hypothesis_with_pose__type_support_c.cpp.o[0m
+[13.455s] [ 72%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/object_hypothesis__type_support.cpp.o[0m
+[13.570s] [ 73%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/detection3_d_array__type_support.cpp.o[0m
+[13.643s] [ 73%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/detection3_d__type_support.cpp.o[0m
+[13.661s] [ 74%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/vision_class__type_support_c.cpp.o[0m
+[13.713s] [ 74%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/point2_d__type_support_c.cpp.o[0m
+[13.866s] [ 75%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/pose2_d__type_support_c.cpp.o[0m
+[13.965s] [ 76%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/object_hypothesis_with_pose__type_support.cpp.o[0m
+[14.025s] [ 76%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/vision_class__type_support.cpp.o[0m
+[14.109s] [ 76%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/vision_class__type_support.cpp.o[0m
+[14.181s] [ 76%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/vision_info__type_support_c.cpp.o[0m
+[14.237s] [ 77%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/point2_d__type_support.cpp.o[0m
+[14.249s] [ 78%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/point2_d__type_support.cpp.o[0m
+[14.349s] [ 79%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/label_info__type_support.cpp.o[0m
+[14.484s] [ 79%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o[0m
+[14.525s] [ 79%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/object_hypothesis__type_support.cpp.o[0m
+[14.643s] [ 80%] [32m[1mLinking CXX shared library libvision_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[14.757s] [ 80%] Built target vision_msgs__rosidl_typesupport_fastrtps_c
+[14.763s] [ 81%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/object_hypothesis_with_pose__type_support.cpp.o[0m
+[14.972s] [ 81%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/pose2_d__type_support.cpp.o[0m
+[15.061s] [ 81%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/vision_class__type_support.cpp.o[0m
+[15.080s] [ 82%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/vision_info__type_support.cpp.o[0m
+[15.133s] [ 83%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/vision_info__type_support.cpp.o[0m
+[15.372s] [ 84%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/point2_d__type_support.cpp.o[0m
+[15.392s] [ 84%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/pose2_d__type_support.cpp.o[0m
+[15.411s] [ 85%] [32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/vision_info__type_support.cpp.o[0m
+[15.783s] [ 85%] [32m[1mLinking CXX shared library libvision_msgs__rosidl_typesupport_cpp.so[0m
+[15.913s] [ 85%] Built target vision_msgs__rosidl_typesupport_cpp
+[16.136s] [ 85%] [32m[1mLinking CXX shared library libvision_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.182s] [ 85%] [32m[1mLinking CXX shared library libvision_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[16.201s] [ 85%] Built target vision_msgs__rosidl_typesupport_fastrtps_cpp
+[16.251s] [ 85%] Built target vision_msgs__rosidl_typesupport_introspection_cpp
+[16.257s] [ 85%] Built target vision_msgs
+[16.264s] [ 86%] [32mBuilding CXX object CMakeFiles/vision_msgs_test.dir/test/main.cpp.o[0m
+[16.265s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.159s] [ 88%] [32m[1mLinking CXX executable vision_msgs_test[0m
+[17.290s] [ 88%] Built target vision_msgs_test
+[18.581s] [ 88%] Built target vision_msgs__py
+[18.592s] [ 88%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_bounding_box2_d_array_s.c.o[0m
+[18.592s] [ 90%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_bounding_box3_d_s.c.o[0m
+[18.594s] [ 90%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_bounding_box2_d_s.c.o[0m
+[18.594s] [ 90%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_bounding_box3_d_array_s.c.o[0m
+[18.595s] [ 91%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_classification_s.c.o[0m
+[18.598s] [ 91%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_detection2_d_array_s.c.o[0m
+[18.623s] [ 92%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_detection2_d_s.c.o[0m
+[18.630s] [ 92%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_detection3_d_array_s.c.o[0m
+[18.830s] [ 93%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_object_hypothesis_s.c.o[0m
+[18.831s] [ 94%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_detection3_d_s.c.o[0m
+[18.839s] [ 94%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_label_info_s.c.o[0m
+[18.842s] [ 94%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_object_hypothesis_with_pose_s.c.o[0m
+[18.891s] [ 95%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_vision_class_s.c.o[0m
+[18.988s] [ 95%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_point2_d_s.c.o[0m
+[18.993s] [ 96%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_pose2_d_s.c.o[0m
+[19.010s] [ 96%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_vision_info_s.c.o[0m
+[19.188s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/vision_msgs/libvision_msgs__rosidl_generator_py.so[0m
+[19.218s] [ 97%] Built target vision_msgs__rosidl_generator_py
+[19.225s] [ 97%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vision_msgs/_vision_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.227s] [ 97%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vision_msgs/_vision_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.227s] [ 97%] [32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vision_msgs/_vision_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[19.412s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/vision_msgs/vision_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.422s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/vision_msgs/vision_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.422s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vision_msgs/vision_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.441s] [100%] Built target vision_msgs__rosidl_typesupport_fastrtps_c__pyext
+[19.447s] [100%] Built target vision_msgs__rosidl_typesupport_c__pyext
+[19.447s] [100%] Built target vision_msgs__rosidl_typesupport_introspection_c__pyext
+[19.456s] Invoked command in '/home/nuna/ipm-ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /home/nuna/.local/bin/cmake --build /home/nuna/ipm-ws/build/vision_msgs -- -j8 -l8
+[19.732s] Invoking command in '/home/nuna/ipm-ws/build/vision_msgs': CMAKE_PREFIX_PATH=/opt/ros/rolling /home/nuna/.local/bin/cmake --install /home/nuna/ipm-ws/build/vision_msgs
+[19.749s] -- Install configuration: ""
+[19.750s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/ament_index/resource_index/rosidl_interfaces/vision_msgs
+[19.750s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox2D.json
+[19.750s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox2DArray.json
+[19.750s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox3D.json
+[19.750s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox3DArray.json
+[19.750s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Classification.json
+[19.750s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Detection2DArray.json
+[19.750s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Detection2D.json
+[19.750s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Detection3DArray.json
+[19.750s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Detection3D.json
+[19.750s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/LabelInfo.json
+[19.750s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/ObjectHypothesis.json
+[19.751s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/ObjectHypothesisWithPose.json
+[19.751s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/VisionClass.json
+[19.751s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Point2D.json
+[19.751s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Pose2D.json
+[19.751s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/VisionInfo.json
+[19.751s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs
+[19.751s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg
+[19.751s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/pose2_d.h
+[19.751s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detection2_d.h
+[19.751s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/label_info.h
+[19.751s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/point2_d.h
+[19.751s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/bounding_box3_d_array.h
+[19.751s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/classification.h
+[19.751s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/object_hypothesis.h
+[19.751s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/object_hypothesis_with_pose.h
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detection2_d_array.h
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detection3_d.h
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/bounding_box2_d_array.h
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/bounding_box2_d.h
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/vision_class.h
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/vision_info.h
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/rosidl_generator_c__visibility_control.h
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/bounding_box3_d.h
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/pose2_d__struct.h
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__type_support.h
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d_array__type_support.h
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_info__description.c
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_info__type_support.h
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d__struct.h
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__type_support.c
+[19.752s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/label_info__type_support.h
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__type_support.c
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__description.c
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__type_support.h
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_info__struct.h
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__functions.h
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d__type_support.c
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/label_info__functions.c
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_info__functions.h
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point2_d__type_support.c
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d__functions.h
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__functions.c
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/label_info__type_support.c
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__type_support.c
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d__description.c
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__functions.c
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__struct.h
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d__type_support.h
+[19.753s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point2_d__struct.h
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/pose2_d__functions.h
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d__type_support.h
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_class__functions.c
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/label_info__functions.h
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_class__description.c
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d_array__type_support.c
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d_array__struct.h
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d__functions.c
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__description.c
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_class__type_support.h
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d_array__description.c
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_class__functions.h
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__functions.h
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d_array__description.c
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__type_support.c
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/classification__type_support.c
+[19.754s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__type_support.c
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/label_info__description.c
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/pose2_d__type_support.c
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d_array__functions.h
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d__type_support.c
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__struct.h
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d_array__functions.h
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point2_d__type_support.h
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__type_support.h
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/pose2_d__type_support.h
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_class__struct.h
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__type_support.h
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d__functions.h
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__description.c
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d__struct.h
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__functions.c
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__functions.h
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/classification__functions.c
+[19.755s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point2_d__functions.h
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/label_info__struct.h
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__struct.h
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_info__functions.c
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__type_support.c
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/pose2_d__functions.c
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__functions.h
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d_array__struct.h
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__functions.h
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point2_d__description.c
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__struct.h
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d_array__functions.c
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__functions.h
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__struct.h
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_class__type_support.c
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__functions.c
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__functions.c
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d_array__type_support.c
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d_array__type_support.h
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d_array__functions.c
+[19.756s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/classification__type_support.h
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__functions.c
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point2_d__functions.c
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__type_support.h
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_info__type_support.c
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/classification__description.c
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__description.c
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__description.c
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d__description.c
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__type_support.h
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__description.c
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d__functions.c
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/pose2_d__description.c
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/classification__functions.h
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/classification__struct.h
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__struct.h
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detection3_d_array.h
+[19.757s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/environment/library_path.sh
+[19.758s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/environment/library_path.dsv
+[19.758s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/libvision_msgs__rosidl_generator_c.so
+[19.758s] -- Set runtime path of "/home/nuna/ipm-ws/install/vision_msgs/lib/libvision_msgs__rosidl_generator_c.so" to ""
+[19.758s] -- Up-to-date: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs
+[19.758s] -- Up-to-date: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg
+[19.758s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.759s] -- Up-to-date: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail
+[19.759s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/classification__rosidl_typesupport_fastrtps_c.h
+[19.759s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__rosidl_typesupport_fastrtps_c.h
+[19.759s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_info__rosidl_typesupport_fastrtps_c.h
+[19.759s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d__rosidl_typesupport_fastrtps_c.h
+[19.759s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__rosidl_typesupport_fastrtps_c.h
+[19.759s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d_array__rosidl_typesupport_fastrtps_c.h
+[19.759s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__rosidl_typesupport_fastrtps_c.h
+[19.759s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_c.h
+[19.759s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d_array__rosidl_typesupport_fastrtps_c.h
+[19.759s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_class__rosidl_typesupport_fastrtps_c.h
+[19.760s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[19.760s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h
+[19.760s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[19.760s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d__rosidl_typesupport_fastrtps_c.h
+[19.760s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/label_info__rosidl_typesupport_fastrtps_c.h
+[19.760s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__rosidl_typesupport_fastrtps_c.h
+[19.760s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_fastrtps_c.so
+[19.760s] -- Set runtime path of "/home/nuna/ipm-ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[19.760s] -- Up-to-date: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs
+[19.760s] -- Up-to-date: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg
+[19.760s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/bounding_box3_d_array.hpp
+[19.761s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/object_hypothesis.hpp
+[19.761s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/bounding_box2_d_array.hpp
+[19.761s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/point2_d.hpp
+[19.761s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/pose2_d.hpp
+[19.761s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/classification.hpp
+[19.761s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detection3_d_array.hpp
+[19.761s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detection2_d.hpp
+[19.761s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/object_hypothesis_with_pose.hpp
+[19.761s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detection3_d.hpp
+[19.761s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/bounding_box2_d.hpp
+[19.761s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detection2_d_array.hpp
+[19.762s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/label_info.hpp
+[19.762s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/vision_class.hpp
+[19.762s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/bounding_box3_d.hpp
+[19.762s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/vision_info.hpp
+[19.762s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[19.762s] -- Up-to-date: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail
+[19.762s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d__type_support.hpp
+[19.762s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__type_support.hpp
+[19.762s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__struct.hpp
+[19.762s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/label_info__type_support.hpp
+[19.762s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__type_support.hpp
+[19.763s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_class__traits.hpp
+[19.763s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__builder.hpp
+[19.763s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/label_info__builder.hpp
+[19.763s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__traits.hpp
+[19.763s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/classification__builder.hpp
+[19.763s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d__struct.hpp
+[19.763s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/classification__struct.hpp
+[19.763s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_info__struct.hpp
+[19.763s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__builder.hpp
+[19.763s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__type_support.hpp
+[19.763s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__builder.hpp
+[19.764s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__struct.hpp
+[19.764s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_info__builder.hpp
+[19.764s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/pose2_d__struct.hpp
+[19.764s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d__traits.hpp
+[19.764s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__struct.hpp
+[19.764s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/classification__traits.hpp
+[19.764s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d_array__type_support.hpp
+[19.764s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/pose2_d__traits.hpp
+[19.764s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__traits.hpp
+[19.764s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__struct.hpp
+[19.764s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d_array__type_support.hpp
+[19.765s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/label_info__struct.hpp
+[19.765s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__traits.hpp
+[19.765s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d_array__builder.hpp
+[19.765s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__type_support.hpp
+[19.765s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__struct.hpp
+[19.765s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d_array__traits.hpp
+[19.765s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d__builder.hpp
+[19.765s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/pose2_d__type_support.hpp
+[19.765s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d__type_support.hpp
+[19.765s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point2_d__struct.hpp
+[19.765s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/classification__type_support.hpp
+[19.765s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_info__type_support.hpp
+[19.766s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__traits.hpp
+[19.766s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__builder.hpp
+[19.766s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d__struct.hpp
+[19.766s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point2_d__builder.hpp
+[19.766s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point2_d__type_support.hpp
+[19.766s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__traits.hpp
+[19.766s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_class__type_support.hpp
+[19.766s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d_array__struct.hpp
+[19.767s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_info__traits.hpp
+[19.767s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__builder.hpp
+[19.767s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_class__builder.hpp
+[19.767s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__struct.hpp
+[19.767s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__type_support.hpp
+[19.767s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d_array__builder.hpp
+[19.767s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__traits.hpp
+[19.767s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d_array__traits.hpp
+[19.767s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/pose2_d__builder.hpp
+[19.767s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/label_info__traits.hpp
+[19.767s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d__traits.hpp
+[19.767s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__builder.hpp
+[19.768s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d_array__struct.hpp
+[19.768s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point2_d__traits.hpp
+[19.768s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__type_support.hpp
+[19.768s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_class__struct.hpp
+[19.768s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d__builder.hpp
+[19.768s] -- Up-to-date: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs
+[19.768s] -- Up-to-date: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg
+[19.768s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.768s] -- Up-to-date: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail
+[19.768s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[19.768s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[19.769s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[19.769s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[19.769s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/dds_fastrtps
+[19.769s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__rosidl_typesupport_fastrtps_cpp.hpp
+[19.769s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[19.769s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[19.769s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[19.769s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_info__rosidl_typesupport_fastrtps_cpp.hpp
+[19.769s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[19.769s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[19.769s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/classification__rosidl_typesupport_fastrtps_cpp.hpp
+[19.769s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/label_info__rosidl_typesupport_fastrtps_cpp.hpp
+[19.769s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[19.770s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_class__rosidl_typesupport_fastrtps_cpp.hpp
+[19.770s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[19.770s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_fastrtps_cpp.so
+[19.770s] -- Set runtime path of "/home/nuna/ipm-ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.770s] -- Up-to-date: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs
+[19.770s] -- Up-to-date: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg
+[19.770s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.770s] -- Up-to-date: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail
+[19.770s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[19.770s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_c.h
+[19.770s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d_array__rosidl_typesupport_introspection_c.h
+[19.771s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__type_support.c
+[19.771s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__type_support.c
+[19.771s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d__type_support.c
+[19.771s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point2_d__type_support.c
+[19.771s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_c.h
+[19.771s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/label_info__type_support.c
+[19.771s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__type_support.c
+[19.771s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d_array__rosidl_typesupport_introspection_c.h
+[19.771s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d_array__type_support.c
+[19.771s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/classification__rosidl_typesupport_introspection_c.h
+[19.771s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__rosidl_typesupport_introspection_c.h
+[19.771s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d__rosidl_typesupport_introspection_c.h
+[19.772s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__type_support.c
+[19.772s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/classification__type_support.c
+[19.772s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__type_support.c
+[19.772s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__rosidl_typesupport_introspection_c.h
+[19.772s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/pose2_d__type_support.c
+[19.772s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d__type_support.c
+[19.772s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d__rosidl_typesupport_introspection_c.h
+[19.772s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/label_info__rosidl_typesupport_introspection_c.h
+[19.772s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__type_support.c
+[19.772s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_class__type_support.c
+[19.772s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d_array__type_support.c
+[19.773s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[19.773s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_info__rosidl_typesupport_introspection_c.h
+[19.773s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__rosidl_typesupport_introspection_c.h
+[19.773s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_info__type_support.c
+[19.773s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_class__rosidl_typesupport_introspection_c.h
+[19.773s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__rosidl_typesupport_introspection_c.h
+[19.773s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_introspection_c.so
+[19.773s] -- Set runtime path of "/home/nuna/ipm-ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_introspection_c.so" to ""
+[19.773s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_c.so
+[19.773s] -- Set runtime path of "/home/nuna/ipm-ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_c.so" to ""
+[19.773s] -- Up-to-date: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs
+[19.774s] -- Up-to-date: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg
+[19.774s] -- Up-to-date: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail
+[19.774s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/label_info__type_support.cpp
+[19.774s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__type_support.cpp
+[19.774s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__rosidl_typesupport_introspection_cpp.hpp
+[19.774s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d__rosidl_typesupport_introspection_cpp.hpp
+[19.774s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_class__type_support.cpp
+[19.774s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_info__type_support.cpp
+[19.774s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__type_support.cpp
+[19.774s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__rosidl_typesupport_introspection_cpp.hpp
+[19.775s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[19.775s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_info__rosidl_typesupport_introspection_cpp.hpp
+[19.775s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp
+[19.775s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d_array__type_support.cpp
+[19.775s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d_array__type_support.cpp
+[19.775s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__type_support.cpp
+[19.775s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[19.775s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__rosidl_typesupport_introspection_cpp.hpp
+[19.775s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection2_d__type_support.cpp
+[19.775s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp
+[19.776s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d_array__rosidl_typesupport_introspection_cpp.hpp
+[19.776s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__type_support.cpp
+[19.776s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point2_d__type_support.cpp
+[19.776s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__type_support.cpp
+[19.776s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d__rosidl_typesupport_introspection_cpp.hpp
+[19.776s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/classification__rosidl_typesupport_introspection_cpp.hpp
+[19.776s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/label_info__rosidl_typesupport_introspection_cpp.hpp
+[19.776s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__type_support.cpp
+[19.776s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[19.776s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/classification__type_support.cpp
+[19.776s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[19.776s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/detection3_d__type_support.cpp
+[19.776s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/pose2_d__type_support.cpp
+[19.777s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/vision_class__rosidl_typesupport_introspection_cpp.hpp
+[19.777s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_introspection_cpp.so
+[19.777s] -- Set runtime path of "/home/nuna/ipm-ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[19.777s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_cpp.so
+[19.777s] -- Set runtime path of "/home/nuna/ipm-ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_cpp.so" to ""
+[19.777s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/environment/pythonpath.sh
+[19.777s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/environment/pythonpath.dsv
+[19.777s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs-4.1.0-py3.10.egg-info
+[19.777s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs-4.1.0-py3.10.egg-info/top_level.txt
+[19.777s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs-4.1.0-py3.10.egg-info/dependency_links.txt
+[19.777s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs-4.1.0-py3.10.egg-info/SOURCES.txt
+[19.777s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs-4.1.0-py3.10.egg-info/PKG-INFO
+[19.777s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs
+[19.778s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/libvision_msgs__rosidl_generator_py.so
+[19.778s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.778s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.778s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg
+[19.778s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_bounding_box2_d.py
+[19.778s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_point2_d.py
+[19.778s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_object_hypothesis_with_pose_s.c
+[19.778s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_detection3_d.py
+[19.778s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_object_hypothesis_with_pose.py
+[19.778s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_bounding_box2_d_s.c
+[19.778s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_point2_d_s.c
+[19.778s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_detection3_d_array.py
+[19.778s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_detection2_d_array_s.c
+[19.779s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_object_hypothesis_s.c
+[19.779s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_object_hypothesis.py
+[19.779s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_vision_info_s.c
+[19.779s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_detection2_d_array.py
+[19.779s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_label_info_s.c
+[19.779s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_vision_class_s.c
+[19.779s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_label_info.py
+[19.779s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_classification_s.c
+[19.779s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_detection2_d.py
+[19.779s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/__init__.py
+[19.779s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_pose2_d_s.c
+[19.779s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_pose2_d.py
+[19.779s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_bounding_box3_d_array_s.c
+[19.780s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_bounding_box3_d_s.c
+[19.780s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_bounding_box2_d_array.py
+[19.780s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_classification.py
+[19.780s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_vision_class.py
+[19.780s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_detection3_d_s.c
+[19.780s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_vision_info.py
+[19.780s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_bounding_box3_d.py
+[19.780s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_bounding_box2_d_array_s.c
+[19.780s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_bounding_box3_d_array.py
+[19.780s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_detection3_d_array_s.c
+[19.780s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_detection2_d_s.c
+[19.780s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/__init__.py
+[19.780s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/_vision_msgs_s.ep.rosidl_typesupport_c.c
+[19.781s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/_vision_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[19.781s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.781s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/_vision_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.815s] Listing '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs'...
+[19.815s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/__init__.py'...
+[19.815s] Listing '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg'...
+[19.815s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/__init__.py'...
+[19.815s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_bounding_box2_d.py'...
+[19.815s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_bounding_box2_d_array.py'...
+[19.815s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_bounding_box3_d.py'...
+[19.815s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_bounding_box3_d_array.py'...
+[19.815s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_classification.py'...
+[19.815s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_detection2_d.py'...
+[19.816s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_detection2_d_array.py'...
+[19.816s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_detection3_d.py'...
+[19.816s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_detection3_d_array.py'...
+[19.816s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_label_info.py'...
+[19.816s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_object_hypothesis.py'...
+[19.816s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_object_hypothesis_with_pose.py'...
+[19.816s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_point2_d.py'...
+[19.816s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_pose2_d.py'...
+[19.816s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_vision_class.py'...
+[19.816s] Compiling '/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/msg/_vision_info.py'...
+[19.818s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.818s] -- Set runtime path of "/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.819s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.819s] -- Set runtime path of "/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.819s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.819s] -- Set runtime path of "/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.819s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/lib/libvision_msgs__rosidl_generator_py.so
+[19.819s] -- Set runtime path of "/home/nuna/ipm-ws/install/vision_msgs/lib/libvision_msgs__rosidl_generator_py.so" to ""
+[19.819s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox2D.idl
+[19.820s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox2DArray.idl
+[19.820s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox3D.idl
+[19.820s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox3DArray.idl
+[19.820s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Classification.idl
+[19.820s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Detection2DArray.idl
+[19.820s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Detection2D.idl
+[19.820s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Detection3DArray.idl
+[19.820s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Detection3D.idl
+[19.820s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/LabelInfo.idl
+[19.820s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/ObjectHypothesis.idl
+[19.820s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/ObjectHypothesisWithPose.idl
+[19.821s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/VisionClass.idl
+[19.821s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Point2D.idl
+[19.821s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Pose2D.idl
+[19.821s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/VisionInfo.idl
+[19.821s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox2D.msg
+[19.821s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox2DArray.msg
+[19.821s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox3D.msg
+[19.821s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/BoundingBox3DArray.msg
+[19.821s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Classification.msg
+[19.821s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Detection2DArray.msg
+[19.821s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Detection2D.msg
+[19.822s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Detection3DArray.msg
+[19.822s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Detection3D.msg
+[19.822s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/LabelInfo.msg
+[19.822s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/ObjectHypothesis.msg
+[19.822s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/ObjectHypothesisWithPose.msg
+[19.822s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/VisionClass.msg
+[19.822s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Point2D.msg
+[19.822s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/Pose2D.msg
+[19.822s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/msg/VisionInfo.msg
+[19.822s] -- Up-to-date: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs
+[19.822s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/include/vision_msgs/create_aabb.hpp
+[19.822s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/ament_index/resource_index/package_run_dependencies/vision_msgs
+[19.823s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/ament_index/resource_index/parent_prefix_path/vision_msgs
+[19.823s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/environment/ament_prefix_path.sh
+[19.823s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/environment/ament_prefix_path.dsv
+[19.823s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/environment/path.sh
+[19.823s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/environment/path.dsv
+[19.823s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/local_setup.bash
+[19.823s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/local_setup.sh
+[19.823s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/local_setup.zsh
+[19.823s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/local_setup.dsv
+[19.823s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/package.dsv
+[19.823s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/ament_index/resource_index/packages/vision_msgs
+[19.823s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_generator_cExport.cmake
+[19.823s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_generator_cExport-noconfig.cmake
+[19.824s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[19.824s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.824s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_generator_cppExport.cmake
+[19.824s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.824s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.824s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_introspection_cExport.cmake
+[19.824s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.824s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_cExport.cmake
+[19.824s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[19.824s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[19.824s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.824s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_cppExport.cmake
+[19.825s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[19.825s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_generator_pyExport.cmake
+[19.825s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_generator_pyExport-noconfig.cmake
+[19.825s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/rosidl_cmake-extras.cmake
+[19.825s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.825s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.825s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[19.825s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[19.825s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.825s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.825s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgsConfig.cmake
+[19.825s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgsConfig-version.cmake
+[19.825s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/package.xml
+[19.830s] Invoked command in '/home/nuna/ipm-ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /home/nuna/.local/bin/cmake --install /home/nuna/ipm-ws/build/vision_msgs

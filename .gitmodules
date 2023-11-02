@@ -1,0 +1,15 @@
+[submodule "src/ipm"]
+	path = src/ipm
+	url = https://github.com/ros-sports/ipm.git
+[submodule "src/vision_msgs"]
+	path = src/vision_msgs
+	url = https://github.com/ros-perception/vision_msgs.git
+[submodule "src/humanoid_base_footprint"]
+	path = src/humanoid_base_footprint
+	url = https://github.com/ros-sports/humanoid_base_footprint.git
+[submodule "shisen_interfaces"]
+	path = shisen_interfaces
+	url = git@github.com:ichiro-its/shisen_interfaces.git
+[submodule "src/shisen_cpp"]
+	path = src/shisen_cpp
+	url = git@github.com:ichiro-its/shisen_cpp.git

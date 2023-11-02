@@ -1,0 +1,39 @@
+[0.126s] Invoking command in '/home/nuna/ipm-ws/build/humanoid_base_footprint': AMENT_PREFIX_PATH=/home/nuna/ipm-ws/install/rot_conv:/home/nuna/ipm-ws/install/biped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuna/ipm-ws/install/rot_conv:/home/nuna/ipm-ws/install/biped_interfaces:/opt/ros/rolling LD_LIBRARY_PATH=/home/nuna/ipm-ws/install/rot_conv/lib:/home/nuna/ipm-ws/install/biped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuna/ipm-ws/install/biped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /home/nuna/.local/bin/cmake --build /home/nuna/ipm-ws/build/humanoid_base_footprint -- -j8 -l8
+[0.170s] [ 20%] Built target gtest
+[0.172s] [ 40%] Built target gtest_main
+[0.179s] [ 60%] Built target base_footprint
+[0.181s] [ 80%] Built target base_footprint_node
+[0.199s] [100%] Built target test_base_footprint
+[0.207s] Invoked command in '/home/nuna/ipm-ws/build/humanoid_base_footprint' returned '0': AMENT_PREFIX_PATH=/home/nuna/ipm-ws/install/rot_conv:/home/nuna/ipm-ws/install/biped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuna/ipm-ws/install/rot_conv:/home/nuna/ipm-ws/install/biped_interfaces:/opt/ros/rolling LD_LIBRARY_PATH=/home/nuna/ipm-ws/install/rot_conv/lib:/home/nuna/ipm-ws/install/biped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuna/ipm-ws/install/biped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /home/nuna/.local/bin/cmake --build /home/nuna/ipm-ws/build/humanoid_base_footprint -- -j8 -l8
+[0.251s] Invoking command in '/home/nuna/ipm-ws/build/humanoid_base_footprint': AMENT_PREFIX_PATH=/home/nuna/ipm-ws/install/rot_conv:/home/nuna/ipm-ws/install/biped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuna/ipm-ws/install/rot_conv:/home/nuna/ipm-ws/install/biped_interfaces:/opt/ros/rolling LD_LIBRARY_PATH=/home/nuna/ipm-ws/install/rot_conv/lib:/home/nuna/ipm-ws/install/biped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuna/ipm-ws/install/biped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /home/nuna/.local/bin/cmake --install /home/nuna/ipm-ws/build/humanoid_base_footprint
+[0.276s] -- Install configuration: ""
+[0.276s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/lib/humanoid_base_footprint/base_footprint
+[0.277s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/environment/library_path.sh
+[0.277s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/environment/library_path.dsv
+[0.277s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/include
+[0.277s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/include/humanoid_base_footprint
+[0.277s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/include/humanoid_base_footprint/base_footprint.hpp
+[0.277s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/lib/libbase_footprint_node.so
+[0.277s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/launch
+[0.278s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/launch/base_footprint.launch
+[0.278s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/ament_index/resource_index/package_run_dependencies/humanoid_base_footprint
+[0.278s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/ament_index/resource_index/parent_prefix_path/humanoid_base_footprint
+[0.278s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/environment/ament_prefix_path.sh
+[0.278s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/environment/ament_prefix_path.dsv
+[0.278s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/environment/path.sh
+[0.278s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/environment/path.dsv
+[0.278s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/local_setup.bash
+[0.278s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/local_setup.sh
+[0.279s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/local_setup.zsh
+[0.279s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/local_setup.dsv
+[0.279s] -- Installing: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/package.dsv
+[0.279s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/ament_index/resource_index/packages/humanoid_base_footprint
+[0.279s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/ament_index/resource_index/rclcpp_components/humanoid_base_footprint
+[0.279s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/cmake/export_base_footprintExport.cmake
+[0.279s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/cmake/export_base_footprintExport-noconfig.cmake
+[0.279s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/cmake/ament_cmake_export_targets-extras.cmake
+[0.279s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.279s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/cmake/humanoid_base_footprintConfig.cmake
+[0.279s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/cmake/humanoid_base_footprintConfig-version.cmake
+[0.279s] -- Up-to-date: /home/nuna/ipm-ws/install/humanoid_base_footprint/share/humanoid_base_footprint/package.xml
+[0.283s] Invoked command in '/home/nuna/ipm-ws/build/humanoid_base_footprint' returned '0': AMENT_PREFIX_PATH=/home/nuna/ipm-ws/install/rot_conv:/home/nuna/ipm-ws/install/biped_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuna/ipm-ws/install/rot_conv:/home/nuna/ipm-ws/install/biped_interfaces:/opt/ros/rolling LD_LIBRARY_PATH=/home/nuna/ipm-ws/install/rot_conv/lib:/home/nuna/ipm-ws/install/biped_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuna/ipm-ws/install/biped_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /home/nuna/.local/bin/cmake --install /home/nuna/ipm-ws/build/humanoid_base_footprint

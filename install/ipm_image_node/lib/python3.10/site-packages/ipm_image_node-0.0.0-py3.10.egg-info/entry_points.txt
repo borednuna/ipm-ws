@@ -1,0 +1,3 @@
+[console_scripts]
+ipm = ipm_image_node.ipm:main
+

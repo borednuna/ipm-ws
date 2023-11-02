@@ -1,0 +1,9 @@
+setup.py
+ipm_interfaces/__init__.py
+ipm_interfaces.egg-info/PKG-INFO
+ipm_interfaces.egg-info/SOURCES.txt
+ipm_interfaces.egg-info/dependency_links.txt
+ipm_interfaces.egg-info/top_level.txt
+ipm_interfaces/srv/__init__.py
+ipm_interfaces/srv/_map_point.py
+ipm_interfaces/srv/_map_point_cloud2.py

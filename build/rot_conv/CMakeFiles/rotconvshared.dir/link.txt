@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,librotconvshared.so -o librotconvshared.so CMakeFiles/rotconvshared.dir/src/rot_conv.cpp.o CMakeFiles/rotconvshared.dir/src/rot_conv_extras.cpp.o 

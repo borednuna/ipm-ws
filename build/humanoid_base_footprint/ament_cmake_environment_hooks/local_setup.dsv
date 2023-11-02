@@ -1,0 +1,3 @@
+source;share/humanoid_base_footprint/environment/ament_prefix_path.sh
+source;share/humanoid_base_footprint/environment/library_path.sh
+source;share/humanoid_base_footprint/environment/path.sh

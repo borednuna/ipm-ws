@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/rot_conv_sample_static.dir/test/rot_conv_sample.cpp.o -o rot_conv_sample_static  librotconvstatic.a 

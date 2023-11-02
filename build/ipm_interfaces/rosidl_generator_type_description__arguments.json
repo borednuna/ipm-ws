@@ -1,0 +1,17 @@
+{
+  "package_name": "ipm_interfaces",
+  "output_dir": "/home/nuna/ipm-ws/build/ipm_interfaces/rosidl_generator_type_description/ipm_interfaces",
+  "idl_tuples": [
+    "/home/nuna/ipm-ws/build/ipm_interfaces/rosidl_adapter/ipm_interfaces:srv/MapPoint.idl",
+    "/home/nuna/ipm-ws/build/ipm_interfaces/rosidl_adapter/ipm_interfaces:srv/MapPointCloud2.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/rolling/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/rolling/share/geometry_msgs",
+    "std_msgs:/opt/ros/rolling/share/std_msgs",
+    "sensor_msgs:/opt/ros/rolling/share/sensor_msgs",
+    "service_msgs:/opt/ros/rolling/share/service_msgs",
+    "shape_msgs:/opt/ros/rolling/share/shape_msgs",
+    "vision_msgs:/home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs"
+  ]
+}

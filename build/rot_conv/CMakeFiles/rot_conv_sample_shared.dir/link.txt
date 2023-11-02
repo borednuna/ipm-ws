@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/rot_conv_sample_shared.dir/test/rot_conv_sample.cpp.o -o rot_conv_sample_shared  -Wl,-rpath,/home/nuna/ipm-ws/build/rot_conv librotconvshared.so 

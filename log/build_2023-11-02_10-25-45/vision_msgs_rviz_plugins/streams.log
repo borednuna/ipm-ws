@@ -1,0 +1,157 @@
+[0.048s] Invoking command in '/home/nuna/ipm-ws/build/vision_msgs_rviz_plugins': AMENT_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/nuna/ipm-ws/install/vision_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages:${PYTHONPATH} /home/nuna/.local/bin/cmake /home/nuna/ipm-ws/src/vision_msgs/vision_msgs_rviz_plugins -DCMAKE_INSTALL_PREFIX=/home/nuna/ipm-ws/install/vision_msgs_rviz_plugins
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.145s] -- The CXX compiler identification is GNU 11.4.0
+[0.158s] -- Detecting C compiler ABI info
+[0.207s] -- Detecting C compiler ABI info - done
+[0.224s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.225s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.235s] -- Detecting CXX compiler ABI info
+[0.297s] -- Detecting CXX compiler ABI info - done
+[0.306s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.306s] -- Detecting CXX compile features
+[0.307s] -- Detecting CXX compile features - done
+[0.343s] -- Found yaml_cpp_vendor: 8.3.0 (/opt/ros/rolling/share/yaml_cpp_vendor/cmake)
+[0.343s] -- Setting yaml-cpp_DIR to: '/opt/ros/rolling/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[0.347s] -- Found ament_cmake: 2.3.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.712s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.790s] -- Found rcpputils: 2.8.0 (/opt/ros/rolling/share/rcpputils/cmake)
+[0.802s] -- Found rclcpp: 23.0.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.849s] -- Found rosidl_generator_c: 4.4.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.862s] -- Found rosidl_generator_cpp: 4.4.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.879s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.895s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.062s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[1.064s] -- Found rmw_fastrtps_cpp: 7.5.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[1.156s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.198s] -- Found FastRTPS: /opt/ros/rolling/include  
+[1.240s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.421s] -- Found rclpy: 5.2.0 (/opt/ros/rolling/share/rclpy/cmake)
+[1.422s] -- Found pluginlib: 5.3.0 (/opt/ros/rolling/share/pluginlib/cmake)
+[1.447s] -- Found rviz_common: 13.1.0 (/opt/ros/rolling/share/rviz_common/cmake)
+[1.453s] -- Setting assimp_DIR to: '/opt/ros/rolling/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-5.2'
+[1.461s] -- Setting OGRE_DIR to: '/opt/ros/rolling/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.463s] -- Found OGRE
+[1.463s] --   static     : OFF
+[1.463s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.463s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.464s] --   media      : /opt/ros/rolling/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.464s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.464s] -- OGRE_LIBRARY_DIRS: /opt/ros/rolling/opt/rviz_ogre_vendor/lib
+[1.464s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.464s] -- OGRE_PLUGIN_DIR: /opt/ros/rolling/opt/rviz_ogre_vendor/lib/OGRE
+[1.464s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/rolling/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.464s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/rolling/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.464s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/rolling/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.464s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/rolling/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.465s] -- Could not find freeimage library
+[1.496s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+[1.505s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.620s] -- Found X11: /usr/include   
+[1.621s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.665s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.665s] -- Looking for gethostbyname
+[1.712s] -- Looking for gethostbyname - found
+[1.712s] -- Looking for connect
+[1.754s] -- Looking for connect - found
+[1.754s] -- Looking for remove
+[1.800s] -- Looking for remove - found
+[1.800s] -- Looking for shmat
+[1.844s] -- Looking for shmat - found
+[1.844s] -- Looking for IceConnectionNumber in ICE
+[1.890s] -- Looking for IceConnectionNumber in ICE - found
+[1.958s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.248s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.248s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.747s] -- Found rviz_default_plugins: 13.1.0 (/opt/ros/rolling/share/rviz_default_plugins/cmake)
+[3.601s] -- Found vision_msgs: 4.1.0 (/home/nuna/ipm-ws/install/vision_msgs/share/vision_msgs/cmake)
+[3.680s] -- Found ament_lint_auto: 0.15.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[3.765s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.766s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.767s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nuna/ipm-ws/src/vision_msgs/vision_msgs_rviz_plugins/include>
+[3.767s] -- Configured cppcheck exclude dirs and/or files: 
+[3.768s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.768s] -- Configured cpplint exclude dirs and/or files: 
+[3.769s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.769s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.770s] -- Added test 'lint_cmake' to check CMake code style
+[3.770s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.772s] -- Added test 'uncrustify' to check C / C++ code style
+[3.772s] -- Configured uncrustify additional arguments: 
+[3.773s] -- Added test 'xmllint' to check XML markup files
+[3.775s] -- Configuring done (3.7s)
+[3.819s] -- Generating done (0.0s)
+[3.822s] -- Build files have been written to: /home/nuna/ipm-ws/build/vision_msgs_rviz_plugins
+[3.839s] Invoked command in '/home/nuna/ipm-ws/build/vision_msgs_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/nuna/ipm-ws/install/vision_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages:${PYTHONPATH} /home/nuna/.local/bin/cmake /home/nuna/ipm-ws/src/vision_msgs/vision_msgs_rviz_plugins -DCMAKE_INSTALL_PREFIX=/home/nuna/ipm-ws/install/vision_msgs_rviz_plugins
+[3.841s] Invoking command in '/home/nuna/ipm-ws/build/vision_msgs_rviz_plugins': AMENT_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/nuna/ipm-ws/install/vision_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages:${PYTHONPATH} /home/nuna/.local/bin/cmake --build /home/nuna/ipm-ws/build/vision_msgs_rviz_plugins -- -j8 -l8
+[3.887s] [  6%] [34m[1mAutomatic MOC for target vision_msgs_rviz_plugins[0m
+[3.907s] [  6%] Built target vision_msgs_rviz_plugins_autogen
+[3.913s] [ 20%] [34m[1mGenerating include/vision_msgs_rviz_plugins/moc_bounding_box_3d.cpp[0m
+[3.913s] [ 20%] [34m[1mGenerating include/vision_msgs_rviz_plugins/moc_detection_3d_array.cpp[0m
+[3.913s] [ 26%] [34m[1mGenerating include/vision_msgs_rviz_plugins/moc_detection_3d.cpp[0m
+[3.914s] [ 33%] [34m[1mGenerating include/vision_msgs_rviz_plugins/moc_bounding_box_3d_array.cpp[0m
+[3.926s] [ 46%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/include/vision_msgs_rviz_plugins/moc_detection_3d_array.cpp.o[0m
+[3.926s] [ 53%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/include/vision_msgs_rviz_plugins/moc_detection_3d.cpp.o[0m
+[3.926s] [ 60%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/include/vision_msgs_rviz_plugins/moc_bounding_box_3d.cpp.o[0m
+[3.926s] [ 66%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/include/vision_msgs_rviz_plugins/moc_bounding_box_3d_array.cpp.o[0m
+[3.927s] [ 66%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/vision_msgs_rviz_plugins_autogen/mocs_compilation.cpp.o[0m
+[3.930s] [ 73%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/src/detection_3d_array.cpp.o[0m
+[3.942s] [ 80%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/src/bounding_box_3d.cpp.o[0m
+[3.945s] [ 86%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/src/detection_3d.cpp.o[0m
+[3.962s] [ 93%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/src/bounding_box_3d_array.cpp.o[0m
+[25.862s] [100%] [32m[1mLinking CXX shared library libvision_msgs_rviz_plugins.so[0m
+[28.980s] [100%] Built target vision_msgs_rviz_plugins
+[29.057s] Invoked command in '/home/nuna/ipm-ws/build/vision_msgs_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/nuna/ipm-ws/install/vision_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages:${PYTHONPATH} /home/nuna/.local/bin/cmake --build /home/nuna/ipm-ws/build/vision_msgs_rviz_plugins -- -j8 -l8
+[29.113s] Invoking command in '/home/nuna/ipm-ws/build/vision_msgs_rviz_plugins': AMENT_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/nuna/ipm-ws/install/vision_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages:${PYTHONPATH} /home/nuna/.local/bin/cmake --install /home/nuna/ipm-ws/build/vision_msgs_rviz_plugins
+[29.137s] -- Install configuration: ""
+[29.137s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/plugins_description.xml
+[29.138s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/environment/library_path.sh
+[29.138s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/environment/library_path.dsv
+[29.138s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/lib/libvision_msgs_rviz_plugins.so
+[29.158s] -- Set runtime path of "/home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/lib/libvision_msgs_rviz_plugins.so" to ""
+[29.158s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/include/vision_msgs_rviz_plugins
+[29.158s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/include/vision_msgs_rviz_plugins/vision_msgs_rviz_plugins
+[29.158s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/include/vision_msgs_rviz_plugins/vision_msgs_rviz_plugins/bounding_box_3d.hpp
+[29.158s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/include/vision_msgs_rviz_plugins/vision_msgs_rviz_plugins/bounding_box_3d_array.hpp
+[29.158s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/include/vision_msgs_rviz_plugins/vision_msgs_rviz_plugins/detection_3d.hpp
+[29.158s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/include/vision_msgs_rviz_plugins/vision_msgs_rviz_plugins/visibility_control.hpp
+[29.158s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/include/vision_msgs_rviz_plugins/vision_msgs_rviz_plugins/detection_3d_common.hpp
+[29.158s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/include/vision_msgs_rviz_plugins/vision_msgs_rviz_plugins/detection_3d_array.hpp
+[29.159s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/include/vision_msgs_rviz_plugins/vision_msgs_rviz_plugins/bounding_box_3d_common.hpp
+[29.159s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/launch
+[29.159s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/launch/test_all.launch.py
+[29.159s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/conf
+[29.159s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/conf/conf.rviz
+[29.159s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/conf/example.yaml
+[29.159s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/icons
+[29.159s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/icons/classes
+[29.159s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/icons/classes/Detection3D.png
+[29.159s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/icons/classes/BoundingBox3DArray.png
+[29.159s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/icons/classes/BoundingBox3D.png
+[29.159s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/icons/classes/Detection3DArray.png
+[29.159s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/lib/vision_msgs_rviz_plugins/Detection3DArray.py
+[29.160s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/lib/vision_msgs_rviz_plugins/Detection3D.py
+[29.160s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/lib/vision_msgs_rviz_plugins/BoundingBox3D.py
+[29.160s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/lib/vision_msgs_rviz_plugins/BoundingBox3DArray.py
+[29.160s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/vision_msgs_rviz_plugins
+[29.160s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/vision_msgs_rviz_plugins
+[29.160s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/environment/ament_prefix_path.sh
+[29.160s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/environment/ament_prefix_path.dsv
+[29.160s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/environment/path.sh
+[29.160s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/environment/path.dsv
+[29.160s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/local_setup.bash
+[29.161s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/local_setup.sh
+[29.161s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/local_setup.zsh
+[29.161s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/local_setup.dsv
+[29.161s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/package.dsv
+[29.161s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/ament_index/resource_index/packages/vision_msgs_rviz_plugins
+[29.161s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/vision_msgs_rviz_plugins
+[29.162s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/cmake/vision_msgs_rviz_pluginsExport.cmake
+[29.162s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/cmake/vision_msgs_rviz_pluginsExport-noconfig.cmake
+[29.162s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.162s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[29.162s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.162s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/cmake/vision_msgs_rviz_pluginsConfig.cmake
+[29.162s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/cmake/vision_msgs_rviz_pluginsConfig-version.cmake
+[29.162s] -- Installing: /home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/package.xml
+[29.167s] Invoked command in '/home/nuna/ipm-ws/build/vision_msgs_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/nuna/ipm-ws/install/vision_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages:${PYTHONPATH} /home/nuna/.local/bin/cmake --install /home/nuna/ipm-ws/build/vision_msgs_rviz_plugins

@@ -1,0 +1,7 @@
+{
+  "package_name": "biped_interfaces",
+  "non_idl_tuples": [
+    "/home/nuna/ipm-ws/src/biped_interfaces:msg/Phase.msg",
+    "/home/nuna/ipm-ws/src/biped_interfaces:msg/SolePoses.msg"
+  ]
+}

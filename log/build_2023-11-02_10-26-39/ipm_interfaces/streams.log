@@ -1,0 +1,176 @@
+[0.092s] Invoking command in '/home/nuna/ipm-ws/build/ipm_interfaces': AMENT_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/nuna/ipm-ws/install/vision_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages:${PYTHONPATH} /home/nuna/.local/bin/cmake --build /home/nuna/ipm-ws/build/ipm_interfaces -- -j8 -l8
+[0.131s] [  2%] Built target ipm_interfaces__rosidl_generator_type_description
+[0.134s] [  2%] Built target ament_cmake_python_copy_ipm_interfaces
+[0.141s] [  4%] Built target ipm_interfaces__cpp
+[0.144s] [ 22%] Built target ipm_interfaces__rosidl_generator_c
+[0.161s] [ 31%] Built target ipm_interfaces__rosidl_typesupport_c
+[0.166s] [ 47%] Built target ipm_interfaces__rosidl_typesupport_fastrtps_c
+[0.166s] [ 50%] Built target ipm_interfaces__rosidl_typesupport_introspection_c
+[0.166s] [ 59%] Built target ipm_interfaces__rosidl_typesupport_cpp
+[0.169s] [ 68%] Built target ipm_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.175s] [ 77%] Built target ipm_interfaces__rosidl_typesupport_introspection_cpp
+[0.183s] [ 77%] Built target ipm_interfaces
+[0.191s] [ 79%] Built target ipm_interfaces__py
+[0.203s] [ 86%] Built target ipm_interfaces__rosidl_generator_py
+[0.216s] [ 90%] Built target ipm_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.218s] [ 95%] Built target ipm_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.219s] [100%] Built target ipm_interfaces__rosidl_typesupport_c__pyext
+[0.378s] running egg_info
+[0.378s] writing ipm_interfaces.egg-info/PKG-INFO
+[0.379s] writing dependency_links to ipm_interfaces.egg-info/dependency_links.txt
+[0.379s] writing top-level names to ipm_interfaces.egg-info/top_level.txt
+[0.381s] reading manifest file 'ipm_interfaces.egg-info/SOURCES.txt'
+[0.381s] writing manifest file 'ipm_interfaces.egg-info/SOURCES.txt'
+[0.399s] [100%] Built target ament_cmake_python_build_ipm_interfaces_egg
+[0.406s] Invoked command in '/home/nuna/ipm-ws/build/ipm_interfaces' returned '0': AMENT_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/nuna/ipm-ws/install/vision_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages:${PYTHONPATH} /home/nuna/.local/bin/cmake --build /home/nuna/ipm-ws/build/ipm_interfaces -- -j8 -l8
+[0.505s] Invoking command in '/home/nuna/ipm-ws/build/ipm_interfaces': AMENT_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/nuna/ipm-ws/install/vision_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages:${PYTHONPATH} /home/nuna/.local/bin/cmake --install /home/nuna/ipm-ws/build/ipm_interfaces
+[0.528s] -- Install configuration: ""
+[0.529s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ament_index/resource_index/rosidl_interfaces/ipm_interfaces
+[0.529s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/srv/MapPoint.json
+[0.529s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/srv/MapPointCloud2.json
+[0.529s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces
+[0.529s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv
+[0.529s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/map_point_cloud2.h
+[0.529s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/map_point.h
+[0.529s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail
+[0.529s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__functions.h
+[0.530s] -- Installing: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__type_support.c
+[0.530s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__functions.h
+[0.530s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__type_support.h
+[0.530s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__functions.c
+[0.530s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__struct.h
+[0.530s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__type_support.h
+[0.530s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__description.c
+[0.530s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__description.c
+[0.530s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__functions.c
+[0.531s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__struct.h
+[0.531s] -- Installing: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__type_support.c
+[0.531s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg
+[0.531s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.531s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/environment/library_path.sh
+[0.531s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/environment/library_path.dsv
+[0.531s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/libipm_interfaces__rosidl_generator_c.so
+[0.531s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces
+[0.531s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv
+[0.532s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail
+[0.532s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__rosidl_typesupport_fastrtps_c.h
+[0.532s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__rosidl_typesupport_fastrtps_c.h
+[0.532s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg
+[0.532s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.532s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/libipm_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.532s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces
+[0.532s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv
+[0.532s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/map_point.hpp
+[0.532s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/map_point_cloud2.hpp
+[0.532s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail
+[0.533s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__struct.hpp
+[0.533s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__type_support.hpp
+[0.533s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__builder.hpp
+[0.533s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__builder.hpp
+[0.533s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__traits.hpp
+[0.533s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__type_support.hpp
+[0.533s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__struct.hpp
+[0.533s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__traits.hpp
+[0.533s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg
+[0.534s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.534s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces
+[0.534s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv
+[0.534s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail
+[0.534s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__rosidl_typesupport_fastrtps_cpp.hpp
+[0.534s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/dds_fastrtps
+[0.534s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__rosidl_typesupport_fastrtps_cpp.hpp
+[0.534s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg
+[0.534s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.534s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/libipm_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__rosidl_typesupport_introspection_c.h
+[0.535s] -- Installing: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__type_support.c
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__rosidl_typesupport_introspection_c.h
+[0.535s] -- Installing: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__type_support.c
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/libipm_interfaces__rosidl_typesupport_introspection_c.so
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/libipm_interfaces__rosidl_typesupport_c.so
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__type_support.cpp
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__rosidl_typesupport_introspection_cpp.hpp
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__rosidl_typesupport_introspection_cpp.hpp
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__type_support.cpp
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/libipm_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/libipm_interfaces__rosidl_typesupport_cpp.so
+[0.535s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/environment/pythonpath.sh
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/environment/pythonpath.dsv
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces-0.0.0-py3.10.egg-info
+[0.536s] -- Installing: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.536s] -- Installing: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.536s] -- Installing: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.536s] -- Installing: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/_ipm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/srv
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/srv/_map_point.py
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/srv/_map_point_s.c
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/srv/_map_point_cloud2_s.c
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/srv/_map_point_cloud2.py
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/srv/__init__.py
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/libipm_interfaces__rosidl_generator_py.so
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/ipm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/ipm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/_ipm_interfaces_s.ep.rosidl_typesupport_c.c
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/__init__.py
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/ipm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.536s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/_ipm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.560s] Listing '/home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces'...
+[0.561s] Listing '/home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/srv'...
+[0.564s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/ipm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.564s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/ipm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.565s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/python3.10/site-packages/ipm_interfaces/ipm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.565s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/lib/libipm_interfaces__rosidl_generator_py.so
+[0.565s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/srv/MapPoint.idl
+[0.565s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/srv/MapPointCloud2.idl
+[0.565s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/srv/MapPoint.srv
+[0.565s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/srv/MapPointCloud2.srv
+[0.565s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ament_index/resource_index/package_run_dependencies/ipm_interfaces
+[0.565s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ament_index/resource_index/parent_prefix_path/ipm_interfaces
+[0.566s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/environment/ament_prefix_path.sh
+[0.566s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/environment/ament_prefix_path.dsv
+[0.566s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/environment/path.sh
+[0.566s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/environment/path.dsv
+[0.566s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/local_setup.bash
+[0.566s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/local_setup.sh
+[0.566s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/local_setup.zsh
+[0.566s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/local_setup.dsv
+[0.566s] -- Installing: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/package.dsv
+[0.566s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ament_index/resource_index/packages/ipm_interfaces
+[0.566s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_generator_cExport.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_generator_cppExport.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfaces__rosidl_typesupport_cExport.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfaces__rosidl_typesupport_cppExport.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_generator_pyExport.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.567s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.568s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.568s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.568s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.568s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.568s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.568s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.568s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfacesConfig.cmake
+[0.568s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfacesConfig-version.cmake
+[0.568s] -- Up-to-date: /home/nuna/ipm-ws/install/ipm_interfaces/share/ipm_interfaces/package.xml
+[0.572s] Invoked command in '/home/nuna/ipm-ws/build/ipm_interfaces' returned '0': AMENT_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuna/ipm-ws/install/vision_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/nuna/ipm-ws/install/vision_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuna/ipm-ws/install/vision_msgs/lib/python3.10/site-packages:${PYTHONPATH} /home/nuna/.local/bin/cmake --install /home/nuna/ipm-ws/build/ipm_interfaces

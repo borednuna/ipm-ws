@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ipm_interfaces/srv/MapPointCloud2.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/PointCloud2.idl"
+#include "shape_msgs/msg/Plane.idl"
+
+module ipm_interfaces {
+  module srv {
+    struct MapPointCloud2_Request {
+      shape_msgs::msg::Plane plane;
+
+      sensor_msgs::msg::PointCloud2 points;
+
+      string plane_frame_id;
+
+      string output_frame_id;
+    };
+    module MapPointCloud2_Response_Constants {
+      const uint8 RESULT_SUCCESS = 0;
+      const uint8 RESULT_NO_CAMERA_INFO = 1;
+      const uint8 RESULT_INVALID_PLANE = 2;
+    };
+    @verbatim (language="comment", text=
+      "Result code defintions")
+    struct MapPointCloud2_Response {
+      @verbatim (language="comment", text=
+        "Returned pointcloud is only valid if result equals RESULT_SUCCESS")
+      sensor_msgs::msg::PointCloud2 points;
+
+      uint8 result;
+    };
+  };
+};
