@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/nuna/ipm-ws/install/vision_msgs_rviz_plugins/include/**",
+        "/home/nuna/ipm-ws/install/ipm_interfaces/include/**",
+        "/home/nuna/ipm-ws/install/vision_msgs/include/**",
+        "/home/nuna/ipm-ws/install/shisen_cpp/include/**",
+        "/home/nuna/ipm-ws/install/shisen_interfaces/include/**",
+        "/home/nuna/ipm-ws/install/humanoid_base_footprint/include/**",
+        "/home/nuna/ipm-ws/install/rot_conv/include/**",
+        "/home/nuna/ipm-ws/install/keisan/include/**",
+        "/home/nuna/ipm-ws/install/biped_interfaces/include/**",
+        "/opt/ros/rolling/include/**",
+        "/home/nuna/ipm-ws/src/humanoid_base_footprint/include/**",
+        "/home/nuna/ipm-ws/src/keisan/include/**",
+        "/home/nuna/ipm-ws/src/rot_conv_lib/include/**",
+        "/home/nuna/ipm-ws/src/shisen_cpp/include/**",
+        "/home/nuna/ipm-ws/src/vision_msgs/vision_msgs/include/**",
+        "/home/nuna/ipm-ws/src/vision_msgs/vision_msgs_rviz_plugins/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

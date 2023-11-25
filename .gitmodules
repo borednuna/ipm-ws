@@ -7,9 +7,12 @@
 [submodule "src/humanoid_base_footprint"]
 	path = src/humanoid_base_footprint
 	url = https://github.com/ros-sports/humanoid_base_footprint.git
-[submodule "shisen_interfaces"]
-	path = shisen_interfaces
-	url = git@github.com:ichiro-its/shisen_interfaces.git
 [submodule "src/shisen_cpp"]
 	path = src/shisen_cpp
 	url = git@github.com:ichiro-its/shisen_cpp.git
+[submodule "src/keisan"]
+	path = src/keisan
+	url = git@github.com:ichiro-its/keisan.git
+[submodule "src/shisen_interfaces"]
+	path = src/shisen_interfaces
+	url = git@github.com:ichiro-its/shisen_interfaces.git
