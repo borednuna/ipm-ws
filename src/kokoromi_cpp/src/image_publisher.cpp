@@ -45,8 +45,7 @@ private:
     // Capture an image from your camera using OpenCV
     cv::Mat frame;
     // Replace "0" with the appropriate camera index if you have multiple cameras
-    cv::VideoCapture cap(0);
-    // std::this_thread::sleep_for(std::chrono::seconds(2));
+    cv::VideoCapture cap(5);
 
     if (!cap.isOpened()) {
       RCLCPP_ERROR(this->get_logger(), "Error opening camera");
