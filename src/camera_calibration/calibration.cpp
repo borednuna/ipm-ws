@@ -64,16 +64,25 @@ int main()
 
     // Save calibration data to a JSON file
     std::string calib_data_path = "./outputs/";
+    std::string publisher_data_path = "../kokoromi_cpp/data/";
     cv::FileStorage fs(calib_data_path + "CalibrationMatrix.json", cv::FileStorage::WRITE | cv::FileStorage::FORMAT_JSON);
+    cv::FileStorage fs_publisher(publisher_data_path + "CalibrationMatrix.json", cv::FileStorage::WRITE | cv::FileStorage::FORMAT_JSON);
 
     fs << "Camera_matrix" << cameraMatrix;
     fs << "DistCoeff" << distCoeffs;
     fs << "RotationalV" << R;
     fs << "TranslationV" << T;
 
+    fs_publisher << "Camera_matrix" << cameraMatrix;
+    fs_publisher << "DistCoeff" << distCoeffs;
+    fs_publisher << "RotationalV" << R;
+    fs_publisher << "TranslationV" << T;
+
     fs.release();  // Release the file storage
+    fs_publisher.release();  // Release the file storage
 
     std::cout << "Calibration data saved to " << calib_data_path + "CalibrationMatrix.json" << std::endl;
+    std::cout << "Calibration data saved to " << publisher_data_path + "CalibrationMatrix.json" << std::endl;
 
     return 0;
 }

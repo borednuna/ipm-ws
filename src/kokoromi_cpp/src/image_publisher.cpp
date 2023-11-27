@@ -34,7 +34,7 @@ public:
   ImagePublisher()
   : Node("image_publisher"), count_(0)
   {
-    publisher_ = this->create_publisher<sensor_msgs::msg::Image>("image", 10);
+    publisher_ = this->create_publisher<sensor_msgs::msg::Image>("input", 10);
     timer_ = this->create_wall_timer(
       2000ms, std::bind(&ImagePublisher::timer_callback, this));
   }
@@ -45,7 +45,7 @@ private:
     // Capture an image from your camera using OpenCV
     cv::Mat frame;
     // Replace "0" with the appropriate camera index if you have multiple cameras
-    cv::VideoCapture cap(5);
+    cv::VideoCapture cap(4);
 
     if (!cap.isOpened()) {
       RCLCPP_ERROR(this->get_logger(), "Error opening camera");

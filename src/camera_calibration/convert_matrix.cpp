@@ -1,3 +1,5 @@
+// cd "/home/nuna/ipm-ws/src/camera_calibration/" && g++ convert_matrix.cpp -o convert -I/usr/include/opencv4 -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui -lopencv_calib3d
+
 #include <opencv2/opencv.hpp>
 
 int main() {
@@ -32,10 +34,6 @@ int main() {
     cv::Mat translationVector = tvecs.row(0).clone().reshape(1, 1); // Assuming you are using the first translation vector
     translationVector = translationVector.reshape(1, 3);
 
-    // Print dimensions before the problematic line
-    std::cout << "Rotation Matrix dimensions: " << rotationMatrices[0].rows << "x" << rotationMatrices[0].cols << std::endl;
-    std::cout << "Translation Vector dimensions: " << translationVector.rows << "x" << translationVector.cols << std::endl;
-
     // Concatenate rotation matrix and translation vector
     cv::Mat extrinsicMatrix;
     cv::hconcat(rotationMatrices[0], translationVector, extrinsicMatrix);
@@ -49,9 +47,20 @@ int main() {
     resultFs << "Distortion_Coefficients" << distCoeffs;
     resultFs << "Extrinsic_Matrix" << extrinsicMatrix;
     resultFs << "Projection_Matrix" << projectionMatrix;
+    resultFs << "Rotation_Matrix" << rotationMatrices[0];
     resultFs.release();
 
+    // Save matrices to a new JSON file
+    cv::FileStorage resultFs_publisher("../kokoromi_cpp/data/ConversionResult.json", cv::FileStorage::WRITE);
+    resultFs_publisher << "Camera_Matrix" << cameraMatrix;
+    resultFs_publisher << "Distortion_Coefficients" << distCoeffs;
+    resultFs_publisher << "Extrinsic_Matrix" << extrinsicMatrix;
+    resultFs_publisher << "Projection_Matrix" << projectionMatrix;
+    resultFs_publisher << "Rotation_Matrix" << rotationMatrices[0];
+    resultFs_publisher.release();
+
     std::cout << "Conversion results saved to ./outputs/ConversionResult.json" << std::endl;
+    std::cout << "Conversion results saved to ../kokoromi_cpp/data/ConversionResult.json" << std::endl;
 
     return 0;
 }
