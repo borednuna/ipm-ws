@@ -28,15 +28,27 @@ int main() {
         rotationMatrices.push_back(rotationMatrix);
     }
 
+    // Ensure the translation vector is 1x3
+    cv::Mat translationVector = tvecs.row(0).clone().reshape(1, 1); // Assuming you are using the first translation vector
+    translationVector = translationVector.reshape(1, 3);
+
+    // Print dimensions before the problematic line
+    std::cout << "Rotation Matrix dimensions: " << rotationMatrices[0].rows << "x" << rotationMatrices[0].cols << std::endl;
+    std::cout << "Translation Vector dimensions: " << translationVector.rows << "x" << translationVector.cols << std::endl;
+
+    // Concatenate rotation matrix and translation vector
+    cv::Mat extrinsicMatrix;
+    cv::hconcat(rotationMatrices[0], translationVector, extrinsicMatrix);
+
+    // Assemble projection matrix
+    cv::Mat projectionMatrix = cameraMatrix * extrinsicMatrix;
+
     // Save matrices to a new JSON file
     cv::FileStorage resultFs("./outputs/ConversionResult.json", cv::FileStorage::WRITE);
     resultFs << "Camera_Matrix" << cameraMatrix;
     resultFs << "Distortion_Coefficients" << distCoeffs;
-    for (int i = 0; i < rotationMatrices.size(); ++i) {
-        std::string rotationMatrixName = "Rotation_Matrix_" + std::to_string(i + 1);
-        resultFs << rotationMatrixName << rotationMatrices[i];
-    }
-    resultFs << "Translation_Vectors" << tvecs;
+    resultFs << "Extrinsic_Matrix" << extrinsicMatrix;
+    resultFs << "Projection_Matrix" << projectionMatrix;
     resultFs.release();
 
     std::cout << "Conversion results saved to ./outputs/ConversionResult.json" << std::endl;
