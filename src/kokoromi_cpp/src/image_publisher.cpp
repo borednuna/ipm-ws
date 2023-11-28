@@ -58,6 +58,10 @@ private:
       return;
     }
 
+    // Save the image to a file
+    std::string filename = "/home/nuna/ipm-ws/src/kokoromi_cpp/data/captured_image.jpg";
+    cv::imwrite(filename, frame);
+
     // Create a sensor_msgs::msg::Image from the OpenCV image
     auto image_msg = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", frame).toImageMsg();
     

@@ -123,3 +123,24 @@ The Inverse Perspective Mapping (IPM) packages you provided are part of a roboti
    - Users can potentially customize the IPM behavior by extending or modifying the `IPM` class and its methods in `ipm_library`.
 
 This explanation provides a high-level overview of the IPM packages' structure and functionality. To use these packages effectively, users typically need to understand ROS2 concepts, including topics, services, and transforms, as well as the specifics of the IPM algorithm implemented in `ipm_library`. Additionally, accurate camera information is crucial for reliable mapping results.
+
+## Point Cloud Data (Projected Image Result)
+The content of the binary file (`PointCloudData.bin`) will be the raw binary data from the `sensor_msgs::msg::PointCloud2` message. Each point in the point cloud is represented by a set of fields, and the binary data stores these fields for each point.
+
+Let's break down what the binary data represents:
+
+1. **x, y, z values:** The fields `x`, `y`, and `z` represent the 3D coordinates of each point in the point cloud. The datatype for these fields is specified as `"\x07"` in your message, which corresponds to a 32-bit floating-point number (float). Each field will take 4 bytes in the binary data.
+
+2. **Other fields:** Depending on your actual point cloud message, there might be additional fields such as intensity, color information, or other attributes. The data for these fields will be present in the binary file as well.
+
+3. **Binary layout:** The binary layout follows the order of fields specified in the `sensor_msgs::msg::PointCloud2` message. For each point, the binary data will consist of the x, y, z values, followed by other fields.
+
+For example, if you have a point cloud message with only x, y, and z fields, and assuming each field is a 32-bit float, the binary data for a single point might look like this:
+
+```
+[ x_value_as_float, y_value_as_float, z_value_as_float ]
+```
+
+This pattern repeats for each point in the point cloud, forming the complete binary representation of the point cloud data.
+
+Keep in mind that the actual structure of the binary data depends on the specification of the `sensor_msgs::msg::PointCloud2` message in your system. You may need to refer to the documentation or specifications of the point cloud message to interpret the binary data accurately.
