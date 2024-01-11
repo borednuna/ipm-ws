@@ -39,7 +39,7 @@ public:
     loadCameraMatrices("/home/nuna/ipm-ws/src/kokoromi_cpp/data/ConversionResult.json");
     publisher_ = this->create_publisher<sensor_msgs::msg::CameraInfo>("camera_info", 10);
     timer_ = this->create_wall_timer(
-      2000ms, std::bind(&MinimalPublisher::timer_callback, this));
+      500ms, std::bind(&MinimalPublisher::timer_callback, this));
   }
 
 private:

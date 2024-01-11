@@ -16,3 +16,9 @@
 [submodule "src/shisen_interfaces"]
 	path = src/shisen_interfaces
 	url = git@github.com:ichiro-its/shisen_interfaces.git
+[submodule "src/ninshiki_cpp"]
+	path = src/ninshiki_cpp
+	url = git@github.com:ichiro-its/ninshiki_cpp.git
+[submodule "src/ninshiki_interfaces"]
+	path = src/ninshiki_interfaces
+	url = git@github.com:ichiro-its/ninshiki_interfaces.git

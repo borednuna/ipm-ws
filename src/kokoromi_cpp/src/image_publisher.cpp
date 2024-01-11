@@ -36,7 +36,7 @@ public:
   {
     publisher_ = this->create_publisher<sensor_msgs::msg::Image>("input", 10);
     timer_ = this->create_wall_timer(
-      2000ms, std::bind(&ImagePublisher::timer_callback, this));
+      500ms, std::bind(&ImagePublisher::timer_callback, this));
   }
 
 private:
