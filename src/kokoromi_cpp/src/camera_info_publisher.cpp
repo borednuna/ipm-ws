@@ -24,8 +24,13 @@
 #include "std_msgs/msg/string.hpp"
 #include "sensor_msgs/msg/camera_info.hpp"
 
+#include "ninshiki_interfaces/msg/detected_objects.hpp"
+
+using DetectedObjects = ninshiki_interfaces::msg::DetectedObjects;
 using namespace std::chrono_literals;
 using json = nlohmann::json;
+
+std::shared_ptr<DetectedObjects> detected_objects;
 
 /* This example creates a subclass of Node and uses std::bind() to register a
  * member function as a callback from the timer. */
@@ -104,6 +109,25 @@ private:
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<sensor_msgs::msg::CameraInfo>::SharedPtr publisher_;
   size_t count_;
+};
+
+class DetectionSubscriber : public rclcpp::Node
+{
+public:
+  DetectionSubscriber()
+  : Node("detection_subscriber")
+  {
+    detection_subscriber = this->create_subscription<DetectedObjects>(
+      "dnn_detection", 10, std::bind(&DetectionSubscriber::topic_callback, this));
+  }
+
+private:
+  void topic_callback(const DetectedObjects::SharedPtr msg) const
+  {
+    detected_objects = msg;
+    RCLCPP_INFO(this->get_logger(), "Received");
+  }
+  rclcpp::Subscription<DetectedObjects>::SharedPtr detection_subscriber;
 };
 
 int main(int argc, char * argv[])
