@@ -118,9 +118,7 @@ public:
   : Node("detection_subscriber")
   {
     detection_subscriber = this->create_subscription<DetectedObjects>(
-      "dnn_detection", 10, [this](const DetectedObjects::SharedPtr msg) {
-        this->topic_callback(msg);
-      });
+      "dnn_detection", 10, std::bind(&DetectionSubscriber::topic_callback, this));
   }
 
 private:
@@ -131,7 +129,6 @@ private:
   }
   rclcpp::Subscription<DetectedObjects>::SharedPtr detection_subscriber;
 };
-
 
 int main(int argc, char * argv[])
 {

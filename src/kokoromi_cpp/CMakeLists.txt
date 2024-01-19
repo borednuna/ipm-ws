@@ -16,12 +16,11 @@ find_package(yaml-cpp REQUIRED)
 find_package(message_filters REQUIRED)
 find_package(PCL REQUIRED COMPONENTS common filters)
 find_package(pcl_msgs REQUIRED)
-find_package(ninshiki_interfaces REQUIRED)
 
 include_directories(${pcl_msgs_INCLUDE_DIRS})
 
 add_executable(talker src/camera_info_publisher.cpp)
-ament_target_dependencies(talker ninshiki_interfaces rclcpp std_msgs sensor_msgs)
+ament_target_dependencies(talker rclcpp std_msgs sensor_msgs)
 
 add_executable(listener src/camera_info_subscriber.cpp)
 ament_target_dependencies(listener rclcpp std_msgs sensor_msgs)
