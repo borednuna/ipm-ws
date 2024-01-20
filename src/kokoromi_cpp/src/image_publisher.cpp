@@ -1,32 +1,14 @@
-// Copyright 2016 Open Source Robotics Foundation, Inc.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
 #include <chrono>
 #include <functional>
 #include <memory>
 #include <string>
-#include <opencv2/opencv.hpp>  // Include the OpenCV library
-
-#include "cv_bridge/cv_bridge.hpp"  // Include the cv_bridge header
+#include <opencv2/opencv.hpp>
+#include "cv_bridge/cv_bridge.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 #include "sensor_msgs/msg/image.hpp"
 
 using namespace std::chrono_literals;
-
-/* This example creates a subclass of Node and uses std::bind() to register a
- * member function as a callback from the timer. */
 
 class ImagePublisher : public rclcpp::Node
 {
@@ -34,6 +16,13 @@ public:
   ImagePublisher()
   : Node("image_publisher"), count_(0)
   {
+    // Open the camera in the constructor
+    cap_.open(0);
+    if (!cap_.isOpened()) {
+      RCLCPP_ERROR(this->get_logger(), "Error opening camera");
+      return;
+    }
+
     publisher_ = this->create_publisher<sensor_msgs::msg::Image>("input", 10);
     timer_ = this->create_wall_timer(
       500ms, std::bind(&ImagePublisher::timer_callback, this));
@@ -42,47 +31,39 @@ public:
 private:
   void timer_callback()
   {
-    // Capture an image from your camera using OpenCV
+    // Capture an image from the camera
     cv::Mat frame;
-    // Replace "0" with the appropriate camera index if you have multiple cameras
-    cv::VideoCapture cap(4);
-
-    if (!cap.isOpened()) {
-      RCLCPP_ERROR(this->get_logger(), "Error opening camera");
-      return;
-    }
-
-    cap >> frame;
+    cap_ >> frame;
     if (frame.empty()) {
       RCLCPP_ERROR(this->get_logger(), "Error capturing frame");
       return;
     }
 
     // Save the image to a file
-    std::string filename = "/home/nuna/ipm-ws/src/kokoromi_cpp/data/captured_image.jpg";
+    std::string filename = "/home/hanun/ipm-ws/src/kokoromi_cpp/data/captured_image.jpg";
     cv::imwrite(filename, frame);
 
     // Create a sensor_msgs::msg::Image from the OpenCV image
-    auto image_msg = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", frame).toImageMsg();
-    
-    // Set the frame_id, width, height, and encoding
+    auto image_msg = std::make_unique<sensor_msgs::msg::Image>();
+    image_msg->header.stamp = this->get_clock()->now();
     image_msg->header.frame_id = "camera";
     image_msg->width = frame.cols;
     image_msg->height = frame.rows;
-    
+    image_msg->encoding = "bgr8";
+    image_msg->data.assign(frame.data, frame.data + frame.total() * frame.elemSize());
+
     // Log information about the captured image
     RCLCPP_INFO(this->get_logger(), "Captured image from camera. Publishing image #%zd", count_);
-    
+
     // Publish the image
-    publisher_->publish(*image_msg);
-    cap.release();  // Release the camera resource
+    publisher_->publish(std::move(image_msg));
   }
+
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr publisher_;
+  cv::VideoCapture cap_;
   size_t count_;
 };
-
-
 
 int main(int argc, char * argv[])
 {

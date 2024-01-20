@@ -61,11 +61,11 @@ private:
     // Add more fields as needed
 
     // Save JSON to a file
-    std::ofstream json_file("/home/nuna/ipm-ws/src/kokoromi_cpp/data/PointCloudData.json");
+    std::ofstream json_file("/home/hanun/ipm-ws/src/kokoromi_cpp/data/PointCloudData.json");
     json_file << std::setw(4) << json_data << std::endl;
 
     // Save binary data to a file
-    std::ofstream binary_file("/home/nuna/ipm-ws/src/kokoromi_cpp/data/PointCloudData.bin", std::ios::binary);
+    std::ofstream binary_file("/home/hanun/ipm-ws/src/kokoromi_cpp/data/PointCloudData.bin", std::ios::binary);
     binary_file.write(reinterpret_cast<const char*>(msg.data.data()), msg.data.size());
 
     RCLCPP_INFO(this->get_logger(), "Point cloud data saved to PointCloudData.json and PointCloudData.bin");

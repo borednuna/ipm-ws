@@ -72,11 +72,16 @@ private:
         std::cout << detected_object.right << std::endl;
         std::cout << detected_object.bottom << std::endl;
 
-        left = detected_object.left * camera_info_msg->width;
-        right = detected_object.right * camera_info_msg->width;
-        top = detected_object.top * camera_info_msg->height;
-        bottom = detected_object.bottom * camera_info_msg->height;
+        left = int(detected_object.left * camera_info_msg->width);
+        right = int(detected_object.right * camera_info_msg->width);
+        top = int(detected_object.top * camera_info_msg->height);
+        bottom = int(detected_object.bottom * camera_info_msg->height);
       }
+
+      std::cout << "Left: " << left << std::endl;
+      std::cout << "Right: " << right << std::endl;
+      std::cout << "width: " << right - left << std::endl;
+      std::cout << "height: " << bottom - top << std::endl;
 
       break;
     }
