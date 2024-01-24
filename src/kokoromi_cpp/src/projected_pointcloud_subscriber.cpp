@@ -1,6 +1,7 @@
 #include <functional>
 #include <memory>
 #include <fstream>
+#include <sensor_msgs/point_cloud2_iterator.hpp>
 #include "rclcpp/rclcpp.hpp"
 #include "sensor_msgs/msg/point_cloud2.hpp"
 #include "nlohmann/json.hpp"
@@ -52,6 +53,22 @@ private:
 
   void topic_callback(const sensor_msgs::msg::PointCloud2 & msg) const
   {
+    sensor_msgs::msg::PointCloud2 pointcloud_msg = msg;
+
+    // Iterate through point cloud data
+    sensor_msgs::PointCloud2Iterator<float> iter_x(pointcloud_msg, "x");
+    sensor_msgs::PointCloud2Iterator<float> iter_y(pointcloud_msg, "y");
+    sensor_msgs::PointCloud2Iterator<float> iter_z(pointcloud_msg, "z");
+
+    for (; iter_x != iter_x.end(); ++iter_x, ++iter_y, ++iter_z) {
+      float x = *iter_x;
+      float y = *iter_y;
+      float z = *iter_z;
+
+      // Print each point (x, y, z)
+      RCLCPP_INFO(this->get_logger(), "Point: (%f, %f, %f)", x, y, z);
+    }
+
     // Convert PointCloud2 message to JSON
     nlohmann::json json_data;
     json_data["header"] = headerToJson(msg.header);
