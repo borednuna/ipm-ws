@@ -27,4 +27,4 @@
 	url = https://github.com/bit-bots/rot_conv_lib.git
 [submodule "src/biped_interfaces"]
 	path = src/biped_interfaces
-	url = https://github.com/ros-sports/biped_interfaces.git
+	url = https://github.com/ros-sports/biped_interfaces.git 
