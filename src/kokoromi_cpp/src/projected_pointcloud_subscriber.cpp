@@ -55,37 +55,43 @@ private:
   {
     sensor_msgs::msg::PointCloud2 pointcloud_msg = msg;
 
-    // Iterate through point cloud data
-    sensor_msgs::PointCloud2Iterator<float> iter_x(pointcloud_msg, "x");
-    sensor_msgs::PointCloud2Iterator<float> iter_y(pointcloud_msg, "y");
-    sensor_msgs::PointCloud2Iterator<float> iter_z(pointcloud_msg, "z");
+    std::cout << "Frame id: " << pointcloud_msg.header.frame_id << std::endl;
+    std::cout << "Height: " << pointcloud_msg.height << std::endl;
+    std::cout << "Width: " << pointcloud_msg.width << std::endl;
+    std::cout << "Is dense: " << pointcloud_msg.is_dense << std::endl;
+    std::cout << "Point step: " << pointcloud_msg.point_step << std::endl;
+    std::cout << "Row step: " << pointcloud_msg.row_step << std::endl;
 
-    for (; iter_x != iter_x.end(); ++iter_x, ++iter_y, ++iter_z) {
-      float x = *iter_x;
-      float y = *iter_y;
-      float z = *iter_z;
+    const auto& data = pointcloud_msg.data;
+    const size_t point_step = pointcloud_msg.point_step;
 
-      // Print each point (x, y, z)
-      RCLCPP_INFO(this->get_logger(), "Point: (%f, %f, %f)", x, y, z);
-    }
+    size_t index = 0; // Assuming the first point is at the beginning of the data field
 
-    // Convert PointCloud2 message to JSON
-    nlohmann::json json_data;
-    json_data["header"] = headerToJson(msg.header);
-    json_data["height"] = msg.height;
-    json_data["width"] = msg.width;
-    json_data["fields"] = fieldsToJson(msg.fields);
-    // Add more fields as needed
+    // Assuming points are of type float (4 bytes each)
+    float x = *reinterpret_cast<const float*>(&data[index]);
+    float y = *reinterpret_cast<const float*>(&data[index + 4]);
+    float z = *reinterpret_cast<const float*>(&data[index + 8]);
 
-    // Save JSON to a file
-    std::ofstream json_file("/home/hanun/ipm-ws/src/kokoromi_cpp/data/PointCloudData.json");
-    json_file << std::setw(4) << json_data << std::endl;
+    // Print the information of the first point
+    std::cout << "First Point: (" << x << ", " << y << ", " << z << ")" << std::endl;
+    std::cout << std::endl;
+    // // Convert PointCloud2 message to JSON
+    // nlohmann::json json_data;
+    // json_data["header"] = headerToJson(msg.header);
+    // json_data["height"] = msg.height;
+    // json_data["width"] = msg.width;
+    // json_data["fields"] = fieldsToJson(msg.fields);
+    // // Add more fields as needed
 
-    // Save binary data to a file
-    std::ofstream binary_file("/home/hanun/ipm-ws/src/kokoromi_cpp/data/PointCloudData.bin", std::ios::binary);
-    binary_file.write(reinterpret_cast<const char*>(msg.data.data()), msg.data.size());
+    // // Save JSON to a file
+    // std::ofstream json_file("/home/hanun/ipm-ws/src/kokoromi_cpp/data/PointCloudData.json");
+    // json_file << std::setw(4) << json_data << std::endl;
 
-    RCLCPP_INFO(this->get_logger(), "Point cloud data saved to PointCloudData.json and PointCloudData.bin");
+    // // Save binary data to a file
+    // std::ofstream binary_file("/home/hanun/ipm-ws/src/kokoromi_cpp/data/PointCloudData.bin", std::ios::binary);
+    // binary_file.write(reinterpret_cast<const char*>(msg.data.data()), msg.data.size());
+
+    // RCLCPP_INFO(this->get_logger(), "Point cloud data saved to PointCloudData.json and PointCloudData.bin");
   }
 
   rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr subscription_;

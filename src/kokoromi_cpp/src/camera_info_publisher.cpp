@@ -99,11 +99,11 @@ private:
     camera_info_msg->p = {projection_matrix_[0], projection_matrix_[1], projection_matrix_[2], projection_matrix_[3], projection_matrix_[4], projection_matrix_[5], projection_matrix_[6], projection_matrix_[7], projection_matrix_[8], projection_matrix_[9], projection_matrix_[10], projection_matrix_[11]};
 
     // Set ROI values
-    camera_info_msg->roi.x_offset = left;
-    camera_info_msg->roi.y_offset = top;
-    camera_info_msg->roi.height = bottom - top;
-    camera_info_msg->roi.width = right - left;
-    camera_info_msg->roi.do_rectify = false;
+    // camera_info_msg->roi.x_offset = left;
+    // camera_info_msg->roi.y_offset = top;
+    // camera_info_msg->roi.height = bottom - top;
+    // camera_info_msg->roi.width = right - left;
+    // camera_info_msg->roi.do_rectify = false;
 
     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", camera_info_msg->header.frame_id.c_str());
 

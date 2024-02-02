@@ -1,5 +1,5 @@
 {
-    "ros.distro": "rolling",
+    "ros.distro": "iron",
     "python.autoComplete.extraPaths": [
         "/home/nuna/ipm-ws/install/ipm_service/lib/python3.10/site-packages",
         "/home/nuna/ipm-ws/install/ipm_image_node/lib/python3.10/site-packages",
