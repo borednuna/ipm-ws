@@ -11,23 +11,5 @@ jobs:
         with:
           path: workspace
 
-      - name: Setup workspace
-        uses: ichiro-its/ros2-ws-action/setup@v1.0.0
-
-      - name: Clone Repositories
-        run: |
-          mkdir -p workspace/src
-          git clone --branch master https://github.com/ichiro-its/keisan workspace/src/keisan
-          git clone --branch master https://github.com/ichiro-its/ninshiki_interfaces workspace/src/ninshiki_interfaces
-          git clone --branch master https://github.com/ichiro-its/shisen_interfaces workspace/src/shisen_interfaces
-          git clone --branch master https://github.com/ichiro-its/shisen_cpp workspace/src/shisen_cpp
-      
-      - name: List contents of workspace
-        run: |
-          ls -l .
-
-      - name: Build workspace
-        uses: ichiro-its/ros2-ws-action/build@v1.0.0
-
-      - name: Test workspace
-        uses: ichiro-its/ros2-ws-action/test@v1.0.0
+      - name: Build and test workspace
+        uses: ichiro-its/ros2-ws-action@v1.0.0
