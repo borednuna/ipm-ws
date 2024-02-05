@@ -18,14 +18,11 @@ jobs:
           git clone --branch master https://github.com/ichiro-its/ninshiki_interfaces workspace/src/ninshiki_interfaces
           git clone --branch master https://github.com/ichiro-its/shisen_interfaces workspace/src/shisen_interfaces
           git clone --branch master https://github.com/ichiro-its/shisen_cpp workspace/src/shisen_cpp
-          pwd
+          cd workspace
       
       - name: List contents of workspace
         run: |
-          cd workspace
           ls -l .
 
-      - name: Build and test workspace
-        run: |
-          colcon build --symlink-install
-          colcon test
+      - name: Build workspace
+        uses: ichiro-its/ros2-ws-action/build@v1.0.0
