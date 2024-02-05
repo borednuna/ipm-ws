@@ -22,6 +22,7 @@ jobs:
       
       - name: List contents of workspace
         run: |
+          cd workspace
           ls -l .
 
       - name: Build and test workspace
