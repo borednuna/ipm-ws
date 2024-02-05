@@ -22,10 +22,9 @@ jobs:
       
       - name: List contents of workspace
         run: |
-          ls -l src
+          ls -l .
 
       - name: Build and test workspace
         run: |
-          cd workspace
           colcon build --symlink-install
           colcon test
