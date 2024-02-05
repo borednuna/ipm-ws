@@ -21,7 +21,7 @@ jobs:
       
       - name: List contents of workspace
         run: |
-          ls -l workspace/src
+          ls -l workspace
 
       - name: Build and test workspace
         uses: ichiro-its/ros2-ws-action@v1.0.0
