@@ -28,3 +28,9 @@
 [submodule "src/biped_interfaces"]
 	path = src/biped_interfaces
 	url = https://github.com/ros-sports/biped_interfaces.git 
+[submodule "src/soccer_ipm"]
+	path = src/soccer_ipm
+	url = https://github.com/ros-sports/soccer_ipm.git
+[submodule "src/soccer_interfaces"]
+	path = src/soccer_interfaces
+	url = https://github.com/ros-sports/soccer_interfaces.git

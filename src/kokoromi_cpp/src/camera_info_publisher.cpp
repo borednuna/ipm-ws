@@ -42,7 +42,7 @@ public:
   MinimalPublisher()
   : Node("minimal_publisher"), count_(0)
   {
-    loadCameraMatrices("/home/hanun/ipm-ws/src/kokoromi_cpp/data/ConversionResult.json");
+    loadCameraMatrices("/home/nuna/ipm-ws/src/kokoromi_cpp/data/ConversionResult.json");
     publisher_ = this->create_publisher<sensor_msgs::msg::CameraInfo>("camera_info", 10);
     timer_ = this->create_wall_timer(
       500ms, std::bind(&MinimalPublisher::timer_callback, this));
@@ -87,16 +87,16 @@ private:
     }
 
     // Placeholder values for distortion coefficients
-    camera_info_msg->d = {distortion_coefficients_[0], distortion_coefficients_[1], distortion_coefficients_[2], distortion_coefficients_[3], distortion_coefficients_[4]};
+    // camera_info_msg->d = {distortion_coefficients_[0], distortion_coefficients_[1], distortion_coefficients_[2], distortion_coefficients_[3], distortion_coefficients_[4]};
 
     // Placeholder values for intrinsic matrix (3x3)
     camera_info_msg->k = {camera_matrix_[0], 0.0, camera_matrix_[2], 0.0, camera_matrix_[4], camera_matrix_[5], 0.0, 0.0, 1.0};
 
     // Placeholder values for rotation matrix (3x3)
-    camera_info_msg->r = {rotation_matrix_[0], rotation_matrix_[1], rotation_matrix_[2], rotation_matrix_[3], rotation_matrix_[4], rotation_matrix_[5], rotation_matrix_[6], rotation_matrix_[7], rotation_matrix_[8]};
+    // camera_info_msg->r = {rotation_matrix_[0], rotation_matrix_[1], rotation_matrix_[2], rotation_matrix_[3], rotation_matrix_[4], rotation_matrix_[5], rotation_matrix_[6], rotation_matrix_[7], rotation_matrix_[8]};
 
-    // Placeholder values for projection matrix (3x4)
-    camera_info_msg->p = {projection_matrix_[0], projection_matrix_[1], projection_matrix_[2], projection_matrix_[3], projection_matrix_[4], projection_matrix_[5], projection_matrix_[6], projection_matrix_[7], projection_matrix_[8], projection_matrix_[9], projection_matrix_[10], projection_matrix_[11]};
+    // // Placeholder values for projection matrix (3x4)
+    // camera_info_msg->p = {projection_matrix_[0], projection_matrix_[1], projection_matrix_[2], projection_matrix_[3], projection_matrix_[4], projection_matrix_[5], projection_matrix_[6], projection_matrix_[7], projection_matrix_[8], projection_matrix_[9], projection_matrix_[10], projection_matrix_[11]};
 
     // Set ROI values
     // camera_info_msg->roi.x_offset = left;
