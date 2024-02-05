@@ -6,11 +6,6 @@ jobs:
     name: Build and Test
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4.0.0
-        with:
-          path: workspace
-
       - name: Clone Repositories
         run: |
           mkdir -p workspace/src
@@ -18,11 +13,15 @@ jobs:
           git clone --branch master https://github.com/ichiro-its/ninshiki_interfaces workspace/src/ninshiki_interfaces
           git clone --branch master https://github.com/ichiro-its/shisen_interfaces workspace/src/shisen_interfaces
           git clone --branch master https://github.com/ichiro-its/shisen_cpp workspace/src/shisen_cpp
-          cd workspace
       
       - name: List contents of workspace
         run: |
           ls -l .
+
+      - name: Checkout
+        uses: actions/checkout@v4.0.0
+        with:
+          path: workspace
 
       - name: Build workspace
         uses: ichiro-its/ros2-ws-action/build@v1.0.0
